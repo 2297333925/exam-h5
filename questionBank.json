@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "以下哪个是 Python 中用于定义函数的关键字？",
+    "options": [
+      "A: def",
+      "B: function",
+      "C: lambda",
+      "D: define"
+    ],
+    "answer": "A",
+    "explanation": "Python 中使用 def 来定义函数。"
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "HTML 中用于插入图片的标签是？",
+    "options": [
+      "A: <img>",
+      "B: <image>",
+      "C: <src>",
+      "D: <pic>"
+    ],
+    "answer": "A",
+    "explanation": "插入图片使用 <img> 标签。"
+  }
+]
