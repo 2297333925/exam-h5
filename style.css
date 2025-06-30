@@ -1,289 +1,135 @@
-/* 基础样式 */
 body {
-  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
-  color: #2d3748;
-  line-height: 1.6;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
   margin: 0;
-  padding: 20px;
-  min-height: 100vh;
+  padding: 0;
 }
 
-/* 主容器 */
 .container {
-  max-width: 750px;
-  margin: 40px auto;
-  background: white;
+  max-width: 720px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   border-radius: 16px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
-.container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-}
-
-/* 标题样式 */
 h1 {
-  background: linear-gradient(135deg, #4f6af5 0%, #3a56e8 100%);
-  color: white;
-  padding: 22px;
   text-align: center;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 0;
-  position: relative;
-  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0,123,255,0.3);
 }
 
-h1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
-  animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
-
-/* 题目编号 */
 #question-number {
   text-align: center;
-  font-weight: 600;
-  color: #4a5568;
-  margin: 20px 0 5px;
-  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
 }
 
-/* 题目文本 */
 #question-text {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin: 15px 25px 25px;
-  color: #1a202c;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0 15px;
+  color: #333;
   text-align: center;
-  line-height: 1.7;
-  padding: 0 10px;
 }
 
-/* 选项列表 */
 #options-list {
   list-style-type: none;
-  padding: 0 25px;
+  padding: 0;
   margin: 0;
 }
 
 #options-list li {
-  background: #f8fafc;
-  padding: 16px 20px;
-  margin: 0 0 15px 0;
-  border-radius: 12px;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border: 1px solid #e2e8f0;
-  font-size: 1.05rem;
+  background: #f1f9ff;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  font-size: 16px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
 }
 
 #options-list li:hover {
-  background: #edf2f7;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background: #d8ecff;
+  border-color: #b0d4f1;
 }
 
 #options-list li.selected {
-  background: #ebf4ff;
-  border-color: #90cdf4;
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+  background: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+  font-weight: bold;
 }
 
-#options-list li.selected::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #4299e1;
-}
-
-/* 选项字母 */
-.option-letter {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  background: #e2e8f0;
-  border-radius: 50%;
-  margin-right: 15px;
-  font-weight: 600;
-  color: #4a5568;
-  flex-shrink: 0;
-}
-
-.selected .option-letter {
-  background: #4299e1;
-  color: white;
-}
-
-/* 选项内容 */
-.option-content {
-  flex-grow: 1;
-  letter-spacing: 0.3px;
-  word-spacing: 3px;
-}
-
-/* 提交按钮 */
 #submit-btn {
   display: block;
   width: 100%;
-  max-width: 280px;
-  margin: 30px auto;
+  max-width: 250px;
+  margin: 25px auto 10px;
   padding: 14px;
-  font-size: 1.1rem;
+  font-size: 17px;
   color: white;
-  background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+  background-color: #28a745;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(72, 187, 120, 0.2);
-  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #submit-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(72, 187, 120, 0.25);
-  background: linear-gradient(135deg, #48bb78 0%, #2f855a 100%);
+  background-color: #218838;
+  transform: scale(1.03);
 }
 
-#submit-btn:active {
-  transform: translateY(0);
-}
-
-/* 反馈信息 */
 #feedback {
-  margin: 25px 25px 15px;
-  padding: 15px;
-  border-radius: 10px;
+  margin-top: 15px;
+  font-weight: bold;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.1rem;
-  display: none;
-  animation: fadeIn 0.4s ease;
+  font-size: 17px;
 }
 
-.correct {
-  background: rgba(72, 187, 120, 0.15);
-  color: #2f855a;
-  border: 1px solid rgba(72, 187, 120, 0.2);
-}
-
-.incorrect {
-  background: rgba(245, 101, 101, 0.15);
-  color: #c53030;
-  border: 1px solid rgba(245, 101, 101, 0.2);
-}
-
-/* 解析框 */
 #explanation-box {
-  margin: 0 25px 25px;
-  padding: 18px;
-  background: #f8fafc;
-  border-radius: 10px;
-  border-left: 4px solid #718096;
-  font-size: 1rem;
-  line-height: 1.7;
-  display: none;
-  animation: fadeIn 0.6s ease;
+  margin-top: 15px;
+  color: #555;
+  font-size: 15px;
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 8px;
+  line-height: 1.6;
 }
 
-/* 动画效果 */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+#result-box h2 {
+  color: #17a2b8;
+  text-align: center;
 }
 
-/* 响应式设计 */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     margin: 20px;
-    border-radius: 12px;
+    padding: 20px;
+    max-width: 95%;
   }
-  
-  h1 {
-    font-size: 1.5rem;
-    padding: 18px;
-  }
-  
-  #question-text {
-    font-size: 1.2rem;
-    margin: 15px 15px 20px;
-  }
-  
-  #options-list {
-    padding: 0 15px;
-  }
-  
-  #options-list li {
-    padding: 14px 16px;
-    font-size: 1rem;
-  }
-  
+
   #submit-btn {
-    max-width: 100%;
-    margin: 25px auto;
+    width: 100%;
+    font-size: 16px;
   }
-}
 
-/* 翻页按钮容器 */
-.nav-buttons {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 25px 25px;
-}
+  #question-text {
+    font-size: 18px;
+  }
 
-.nav-btn {
-  padding: 12px 25px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-#prev-btn {
-  background: #edf2f7;
-  color: #4a5568;
-}
-
-#prev-btn:hover {
-  background: #e2e8f0;
-}
-
-#next-btn {
-  background: #4299e1;
-  color: white;
-}
-
-#next-btn:hover {
-  background: #3182ce;
-}
-
-.nav-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
+  #options-list li {
+    font-size: 15px;
+    padding: 12px;
+  }
 }
