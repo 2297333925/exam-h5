@@ -4,10 +4,10 @@
     "type": "single",
     "question": "请选出可用作C语言用户标识符的一组标识符______。",
     "options": [
-      "A: void     define     WORD",
-      "B: a3_b3     _123     IF",
-      "C: For     _abc     case",
-      "D: 2a     DO     sizeof"
+      "A: void      define      WORD",
+      "B: a3_b3      _123      IF",
+      "C: For      _abc      case",
+      "D: 2a      DO      sizeof"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/S标识符T"
@@ -17,10 +17,10 @@
     "type": "single",
     "question": "请选出可用作C语言用户标识符的一组标识符______。",
     "options": [
-      "A: int     define     WORD",
-      "B: a3     _123     IF",
-      "C: or     _abc     case",
-      "D: 3a     a1     sizeof"
+      "A: int      define      WORD",
+      "B: a3      _123      IF",
+      "C: or      _abc      case",
+      "D: 3a      a1      sizeof"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/S标识符T"
@@ -30,10 +30,10 @@
     "type": "single",
     "question": "请选出可用作C语言用户标识符的一组标识符______。",
     "options": [
-      "A: float     define     WORD",
-      "B: is     _123     IF",
-      "C: For     _abc     case",
-      "D: 8a     DO     sizeof"
+      "A: float      define      WORD",
+      "B: is      _123      IF",
+      "C: For      _abc      case",
+      "D: 8a      DO      sizeof"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/S标识符T"
@@ -43,10 +43,10 @@
     "type": "single",
     "question": "请选出可用作C语言用户标识符的一组标识符______。",
     "options": [
-      "A: char     define     WORD",
-      "B: c3     _123     IF",
-      "C: For     _abc     case",
-      "D: 2a     do     sizeof"
+      "A: char      define      WORD",
+      "B: c3      _123      IF",
+      "C: For      _abc      case",
+      "D: 2a      do      sizeof"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/S标识符T"
@@ -163,7 +163,7 @@
       "A: a[i]",
       "B: *(&a[i])",
       "C: p[i]",
-      "D: &(*(a+i)     )"
+      "D: &(*(a+i)      )"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/S一维数组元素的指针表示T"
@@ -173,7 +173,7 @@
     "type": "single",
     "question": "设有以下语句，其中不是对a数组元素的正确引用的是：______(其中0≤i<6)\nint a[6]={11,22,33,44,55,66},*m=a;",
     "options": [
-      "A: &(*(a+i)     )",
+      "A: &(*(a+i)      )",
       "B: *(&a[i])",
       "C: m[i]",
       "D: a[i]"
@@ -189,7 +189,7 @@
       "A: b[i]",
       "B: *(&b[i])",
       "C: q[i]",
-      "D: &(*(b+i)     )"
+      "D: &(*(b+i)      )"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/S一维数组元素的指针表示T"
@@ -202,7 +202,7 @@
       "A: c[i]",
       "B: *(&c[i])",
       "C: p[i]",
-      "D: &(*(c+i)     )"
+      "D: &(*(c+i)      )"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/S一维数组元素的指针表示T"
@@ -628,10 +628,10 @@
     "type": "single",
     "question": "以下程序的结果是______。\nint  a ,b;\nvoid fun()\n{  a=100; b=200;  }\nmain()\n{  int  a=5,b=7;\nfun();\nprintf(\"%d %d\\n\",a,b);\n}",
     "options": [
-      "A: 100     200",
-      "B: 5     7",
-      "C: 200     100",
-      "D: 7     5"
+      "A: 100      200",
+      "B: 5      7",
+      "C: 200      100",
+      "D: 7      5"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/S全局变量与局部变量T"
@@ -641,10 +641,10 @@
     "type": "single",
     "question": "以下程序的结果是______。\nint  a ,b;\nvoid sun()\n{  a=100; b=200;  }\nmain()\n{  int  a=6,b=8;\nsun();\nprintf(\"%d %d\\n\",a,b);\n}",
     "options": [
-      "A: 100     200",
-      "B: 6     8",
-      "C: 200     100",
-      "D: 8     6"
+      "A: 100      200",
+      "B: 6      8",
+      "C: 200      100",
+      "D: 8      6"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/S全局变量与局部变量T"
@@ -654,10 +654,10 @@
     "type": "single",
     "question": "以下程序的结果是______。\nint  a1＝100,b1＝200;\nvoid fun( )\n{  a1=7; b1=5;  }\nmain( )\n{  int  a1=5,b1=7;\nfun();\nprintf(\"%d %d\\n\",a1,b1);\n}",
     "options": [
-      "A: 100     200",
-      "B: 5     7",
-      "C: 200     100",
-      "D: 7     5"
+      "A: 100      200",
+      "B: 5      7",
+      "C: 200      100",
+      "D: 7      5"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/S全局变量与局部变量T"
@@ -667,10 +667,10 @@
     "type": "single",
     "question": "以下程序的结果是______。\nint  a=5,b=7;\nvoid sun()\n{  a=100; b=200;  }\nmain()\n{  int  a=200,b=100;\nsun();\nprintf(\"%d %d\\n\",a,b);\n}",
     "options": [
-      "A: 100     200",
-      "B: 5     7",
-      "C: 200     100",
-      "D: 7     5"
+      "A: 100      200",
+      "B: 5      7",
+      "C: 200      100",
+      "D: 7      5"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C6函数与编译预处理/S全局变量与局部变量T"
@@ -733,7 +733,7 @@
     "question": "已知i、j、k为int型变量，若从键盘输入：1,2,3↙，使i的值为1、j的值为2、k的值为3，以下选项中正确的输入语句是______。",
     "options": [
       "A: scanf(\"%2d%2d%2d\",&i,&j,&k);",
-      "B: scanf(\"%d     %d     %d\",&i,&j,&k);",
+      "B: scanf(\"%d      %d      %d\",&i,&j,&k);",
       "C: scanf(\"%d,%d,%d\",&i,&j,&k);",
       "D: scanf(\"i=%d,j=%d,k=%d\",&i,&j,&k);"
     ],
@@ -746,7 +746,7 @@
     "question": "已知i、j、k为int型变量，若从键盘输入：i=1,j=2,k=3↙，使i的值为1、j的值为2、k的值为3，以下选项中正确的输入语句是______。",
     "options": [
       "A: scanf(\"%2d%2d%2d\",&i,&j,&k);",
-      "B: scanf(\"%d     %d     %d\",&i,&j,&k);",
+      "B: scanf(\"%d      %d      %d\",&i,&j,&k);",
       "C: scanf(\"%d,%d,%d\",&i,&j,&k);",
       "D: scanf(\"i=%d,j=%d,k=%d\",&i,&j,&k);"
     ],
@@ -837,7 +837,7 @@
     "question": "以下程序结果为：______。\nmain( )\n{ int m=0, p=8, q=8;\nif(m=p-q)\nprintf(\"@@@@\");\nelse\nprintf(\"&&&&\"); }",
     "options": [
       "A: &&&&",
-      "B: @@@@     答案：A     评析：     知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T     66、以下程序结果为：______。     main(     )     {     int     m=2;     if(m=1)     printf(\"@@@@\");     else     printf(\"&&&&\");     }     A：&&&&     B：@@@@     答案：B     评析：     知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T     67、以下程序结果为：______。     main(     )     {     int     m=2;     if(m=0)     printf(\"@@@@\");     else     printf(\"&&&&\");     }     A：&&&&     B：@@@@     答案：A     评析：     知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T     68、已有文本文件test.txt，其中的内容为：Hello,everyone！。以下程序中，文件test.txt已正确为\"读\"而打开，由文件指针fr指向该文件，则程序的输出结果是___________。     #include     <stdio.h>     main()     {     FILE     *fr;char     str[40];     ……     fgets(str,5,fr);     printf(\"%s\\n\",str);     fclose(fr);}     A：Hell     B：hello",
+      "B: @@@@      答案：A      评析：      知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T      66、以下程序结果为：______。      main(      )      {      int      m=2;      if(m=1)      printf(\"@@@@\");      else      printf(\"&&&&\");      }      A：&&&&      B：@@@@      答案：B      评析：      知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T      67、以下程序结果为：______。      main(      )      {      int      m=2;      if(m=0)      printf(\"@@@@\");      else      printf(\"&&&&\");      }      A：&&&&      B：@@@@      答案：A      评析：      知识点：知识点/选择题/C4选择结构程序设计/Sif语句条件为赋值表达式T      68、已有文本文件test.txt，其中的内容为：Hello,everyone！。以下程序中，文件test.txt已正确为\"读\"而打开，由文件指针fr指向该文件，则程序的输出结果是___________。      #include      <stdio.h>      main()      {      FILE      *fr;char      str[40];      ……      fgets(str,5,fr);      printf(\"%s\\n\",str);      fclose(fr);}      A：Hell      B：hello",
       "C: ever",
       "D: Hello,everyone！"
     ],
@@ -943,7 +943,7 @@
       "A: 26",
       "B: 18",
       "C: 9",
-      "D: 36     答案：D     评析：     知识点：知识点/选择题/C6函数与编译预处理/S函数嵌套调用T     77、下面程序的输出结果是_______。     m1(int     x)     {     int     y;     y=x*x;     return(y);}     m2(int     a     ,int     b)     {     int     l;     l=m1(a-b);     return(l);}     main(     )     {     int     p=2,q=4,t;     t=m2(p     ,q);     printf(\"%d\",t);}     A：4     B：6     C：8     D：12"
+      "D: 36      答案：D      评析：      知识点：知识点/选择题/C6函数与编译预处理/S函数嵌套调用T      77、下面程序的输出结果是_______。      m1(int      x)      {      int      y;      y=x*x;      return(y);}      m2(int      a      ,int      b)      {      int      l;      l=m1(a-b);      return(l);}      main(      )      {      int      p=2,q=4,t;      t=m2(p      ,q);      printf(\"%d\",t);}      A：4      B：6      C：8      D：12"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C6函数与编译预处理/S函数嵌套调用T"
@@ -1099,7 +1099,7 @@
       "A: 2,1",
       "B: 2,2",
       "C: 1,1",
-      "D: 2     1"
+      "D: 2      1"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C4选择结构程序设计/Sswitch嵌套T"
@@ -1112,7 +1112,7 @@
       "A: 2,1",
       "B: 3,2",
       "C: 2,3",
-      "D: 3     2"
+      "D: 3      2"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C4选择结构程序设计/Sswitch嵌套T"
@@ -1125,7 +1125,7 @@
       "A: 2,1",
       "B: 2,3",
       "C: 3,2",
-      "D: 3     2"
+      "D: 3      2"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C4选择结构程序设计/Sswitch嵌套T"
@@ -1213,10 +1213,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nmain()\n{  int   x＝10,y＝10,i;\nfor(i＝0;x>8 ;y＝++i)\nprintf(\"%d   %d  \",x--,y);\n}",
     "options": [
-      "A: 10     1     9     2",
-      "B: 9     8     7     6",
-      "C: 10     9     9     0",
-      "D: 10     10     9     1"
+      "A: 10      1      9      2",
+      "B: 9      8      7      6",
+      "C: 10      9      9      0",
+      "D: 10      10      9      1"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C5循环结构程序设计/FOR循环结构T"
@@ -1239,7 +1239,7 @@
     "type": "single",
     "question": "能正确表示a和b同时为正或同时为负的表达式是______。",
     "options": [
-      "A: (a>=0||b>=0)&&(a<0||     b<0)",
+      "A: (a>=0||b>=0)&&(a<0||      b<0)",
       "B: (a>=0&&b>=0)&&(a<0&&b<0)",
       "C: (a+b>0)&&(a+b<=0)",
       "D: a*b>0"
@@ -1252,10 +1252,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nmain()\n{  int  n=4;\nwhile(n--)printf(\"%d   \",--n);\n}",
     "options": [
-      "A: 2     0",
-      "B: 3     1",
-      "C: 3     2     1",
-      "D: 2     1     0"
+      "A: 2      0",
+      "B: 3      1",
+      "C: 3      2      1",
+      "D: 2      1      0"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C5循环结构程序设计/WHILE循环结构T"
@@ -1291,10 +1291,10 @@
     "type": "single",
     "question": "以下选项中，能定义m为合法的结构体变量的是______。",
     "options": [
-      "A: typedef     struct     abc     {     double     a;     char     b;     }     m;",
-      "B: struct     {     double     a;     char     b;     }m;",
-      "C: struct     ABC     {     double     a;     char     b;     }     ABC     m;",
-      "D: typedef     ABC     {     double     a;     char     b;     }     ABC     m;"
+      "A: typedef      struct      abc      {      double      a;      char      b;      }      m;",
+      "B: struct      {      double      a;      char      b;      }m;",
+      "C: struct      ABC      {      double      a;      char      b;      }      ABC      m;",
+      "D: typedef      ABC      {      double      a;      char      b;      }      ABC      m;"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体类型及变量定义T"
@@ -1332,7 +1332,7 @@
     "options": [
       "A: 200",
       "B: 100",
-      "C: 100     200",
+      "C: 100      200",
       "D: 输入格式符不够，输出不确定的值"
     ],
     "answer": "A",
@@ -1370,7 +1370,7 @@
     "question": "若要用下面的程序片段使指针变量p指向一个存储整型变量的动态存储单元\nint  *p;\np= ______ malloc(sizeof(int) );\n则应填入______。",
     "options": [
       "A: int",
-      "B: int     *",
+      "B: int      *",
       "C: (*int)",
       "D: (int*)"
     ],
@@ -1463,7 +1463,7 @@
       "A: a[p-a]",
       "B: *(&a[i])",
       "C: p[i]",
-      "D: *(*(a+i)     )"
+      "D: *(*(a+i)      )"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/一维数组元素的指针表示T"
@@ -1694,10 +1694,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nmain()\n{  char *s=\"12134211\";  int v[4]={0,0,0,0},k,i;\nfor (k=0;s[k];k++)\n{  switch(s[k])\n{  case '1':i=0;\ncase '2':i=1;\ncase '3':i=2;\ncase '4':i=3;\n}\nv[i]++;\n}\nfor(k=0; k<4;k++)  printf(\"%d  \",v[k]);\n}",
     "options": [
-      "A: 4     2     1     1",
-      "B: 0     0     0     8",
-      "C: 4     6     7     8",
-      "D: 8     8     8     8"
+      "A: 4      2      1      1",
+      "B: 0      0      0      8",
+      "C: 4      6      7      8",
+      "D: 8      8      8      8"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C8指针/【"
@@ -1722,7 +1722,7 @@
     "options": [
       "A: A：=b+1",
       "B: a=b=c+2",
-      "C: int     18.5%3",
+      "C: int      18.5%3",
       "D: a=a+7=c+b"
     ],
     "answer": "B",
@@ -1759,10 +1759,10 @@
     "type": "single",
     "question": "有如下程序\nmain()\n{    int  y=3,x=3,z=1;\nprintf(\"%d %d\\n\",(++x,y++),z+2);\n}\n运行该程序的输出结果是______。",
     "options": [
-      "A: 3     4",
-      "B: 4     2",
-      "C: 4     3",
-      "D: 3     3"
+      "A: 3      4",
+      "B: 4      2",
+      "C: 4      3",
+      "D: 3      3"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/表达式输出T"
@@ -1980,10 +1980,10 @@
     "type": "single",
     "question": "若变量已正确说明为float类型，要通过语句scanf(\"%f %f %f\",&a,&b,&c);给 a赋予10.0，b赋予22.0，c赋予33.0，不正确的输入形式是：______。",
     "options": [
-      "A: 10     22     33",
+      "A: 10      22      33",
       "B: 10.0,22.0,33.0",
-      "C: 10.0     22.0     33.0",
-      "D: 10     22     33"
+      "C: 10.0      22.0      33.0",
+      "D: 10      22      33"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C3顺序结构程序设计/输入函数T"
@@ -2048,7 +2048,7 @@
       "A: struct是结构体类型的关键字",
       "B: example是结构体类型名",
       "C: x，y，z都是结构体成员名",
-      "D: struct     ex是结构体类型"
+      "D: struct      ex是结构体类型"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体类型及变量定义T"
@@ -2074,7 +2074,7 @@
       "A: 1",
       "B: 7",
       "C: 9",
-      "D: 3     答案：B     评析：     知识点：知识点/选择题/C6函数与编译预处理/带参数的宏定义T     165、若定义了以下函数：     void     f(……)     {……     *p=(double*)malloc(10*sizeof(double));     ……     }     p是该函数的形参，要求通过p把动态分配存储单元的地址传回主调函数，则形参p的正确定义应当是______。     A：double     *p     B：float     **p     C：double     **p     D：float     *p"
+      "D: 3      答案：B      评析：      知识点：知识点/选择题/C6函数与编译预处理/带参数的宏定义T      165、若定义了以下函数：      void      f(……)      {……      *p=(double*)malloc(10*sizeof(double));      ……      }      p是该函数的形参，要求通过p把动态分配存储单元的地址传回主调函数，则形参p的正确定义应当是______。      A：double      *p      B：float      **p      C：double      **p      D：float      *p"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C9结构体与共用体/动态内存分配T"
@@ -2084,10 +2084,10 @@
     "type": "single",
     "question": "假定建立了以下链表结构，指针p、q分别指向如图所示的结点，则以下可以将q所指结点从链表中删除并释放该结点的语句组是______。",
     "options": [
-      "A: free(q);     p->next=q->next;",
-      "B: (*p).next=(*q).next;     free(q);",
-      "C: q=(*q).next;     (*p).next=q;     free(q);",
-      "D: q=q->next;     p->next=q;     p=p->next;free(p);     答案：B     评析：     空     知识点：知识点/选择题/C9结构体与共用体/链表T     167、以下程序的输出结果是______。     main()     {     int     x=05;     char     z='a';     printf(\"%d\\n\",(x&1)&&(z<'z')     );     }     A：0     B：1     C：2     D：3"
+      "A: free(q);      p->next=q->next;",
+      "B: (*p).next=(*q).next;      free(q);",
+      "C: q=(*q).next;      (*p).next=q;      free(q);",
+      "D: q=q->next;      p->next=q;      p=p->next;free(p);      答案：B      评析：      空      知识点：知识点/选择题/C9结构体与共用体/链表T      167、以下程序的输出结果是______。      main()      {      int      x=05;      char      z='a';      printf(\"%d\\n\",(x&1)&&(z<'z')      );      }      A：0      B：1      C：2      D：3"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C10位运算/位运算T"
@@ -2110,7 +2110,7 @@
     "type": "single",
     "question": "X、Y、Z被定义为int型变量，若从键盘给X、Y、Z输入数据，正确的输入语句是______。",
     "options": [
-      "A: INPUT     X,Y,Z;",
+      "A: INPUT      X,Y,Z;",
       "B: scanf(\"%d%d%d\",&X,&Y,&Z);",
       "C: scanf(\"%d%d%d\",X,Y,Z);",
       "D: read(\"%d%d%d\",&X,&Y,&Z);"
@@ -2201,10 +2201,10 @@
     "type": "single",
     "question": "以下各选项企图说明一种新的类型名，其中正确的是______。",
     "options": [
-      "A: typedef     v1     int;",
-      "B: typedef     v2=int;",
-      "C: typedef     int     v3;",
-      "D: typedef     v4:     int"
+      "A: typedef      v1      int;",
+      "B: typedef      v2=int;",
+      "C: typedef      int      v3;",
+      "D: typedef      v4:      int"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C9结构体与共用体/基本数据类型重定义T"
@@ -2253,10 +2253,10 @@
     "type": "single",
     "question": "以下定义语句中，错误的是______。",
     "options": [
-      "A: int     a[]={1,2};",
-      "B: char     a[3];",
-      "C: char     s[10]=\"test\";",
-      "D: int     n=5,a[n];"
+      "A: int      a[]={1,2};",
+      "B: char      a[3];",
+      "C: char      s[10]=\"test\";",
+      "D: int      n=5,a[n];"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/数组基本概念"
@@ -2357,10 +2357,10 @@
     "type": "single",
     "question": "以下选项中不属于C语言类型的是______。",
     "options": [
-      "A: signed     short     int",
-      "B: unsigned     char",
-      "C: singed     long",
-      "D: long     short"
+      "A: signed      short      int",
+      "B: unsigned      char",
+      "C: singed      long",
+      "D: long      short"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/基本数据类型T"
@@ -2539,10 +2539,10 @@
     "type": "single",
     "question": "以下不能正确进行字符串赋初值的语句为______。",
     "options": [
-      "A: char     str[5]=\"good!\";",
-      "B: char     str[]=\"good!\";",
-      "C: char     str[6]=\"good!\";",
-      "D: char     str[5]={'g','o','o','d'};"
+      "A: char      str[5]=\"good!\";",
+      "B: char      str[]=\"good!\";",
+      "C: char      str[6]=\"good!\";",
+      "D: char      str[5]={'g','o','o','d'};"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C7数组/字符数组初始化T"
@@ -2591,10 +2591,10 @@
     "type": "single",
     "question": "不合法的main函数命令行参数表示形式是______。",
     "options": [
-      "A: main(int     a,char     *c[])",
-      "B: main(int     arc,char     **arv)",
-      "C: main(int     argc,char     *argv)",
-      "D: main(int     argv,char     *arge[])"
+      "A: main(int      a,char      *c[])",
+      "B: main(int      arc,char      **arv)",
+      "C: main(int      argc,char      *argv)",
+      "D: main(int      argv,char      *arge[])"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/命令行参数T"
@@ -2604,10 +2604,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nint x=3;\nmain()\n{ int i;\nfor(i=1;i<x;i++) incre();\n}\nincre()\n{  static int x=1;\nx*=x+1;\nprintf(\" %d\",x);\n}",
     "options": [
-      "A: 3     3",
-      "B: 2     2",
-      "C: 2     6",
-      "D: 2     5"
+      "A: 3      3",
+      "B: 2      2",
+      "C: 2      6",
+      "D: 2      5"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C6函数与编译预处理/静态存储T"
@@ -2721,10 +2721,10 @@
     "type": "single",
     "question": "有一函数\n    ┌  1    x > 0\ny = ┤  0    x = 0\n    └ -1    x < 0\n以下程序段中不能根据x的值正确计算出y的值的是______。",
     "options": [
-      "A: if(     x     >     0     )     y=1;     else     if(     x     ==     0     )     y=0;     else     y     =     -1;",
-      "B: y=0;     if(     x     >     0     )     y=1;     else     if(     x     <     0     )     y=-1;",
-      "C: y=0;     if(     x     >=     0     )     if(     x     >     0     )     y=1;     else     y=-1;",
-      "D: if(x     >=     0     )     if(     x     >     0     )     y=1;     else     y=0;     else     y=-1;     答案：C     评析：     空     知识点：知识点/选择题/C4选择结构程序设计/IF语句的嵌套T     217、以下程序的功能是：按顺序读入10名学生4门课程的成绩，计算出每位学生的平均分并输出，程序如下：     main()     {int     n,k;     float     score,sum,ave;     sum=0.0;     for(n=1;n<=10;n++)     {for(k=1;k<=4;k++)     {scanf(\"%f\",&score);     sum+=score;}     ave=sum/4.0;     printf(\"NO%D：%f\\n\",n,ave);     }     }     上述程序运行后结果不正确，调试中发现有一条语句出现在程序的位置不正确。这条语句是______。     A：sum=0.0;     B：sum+=score;     C：ave=sum/4.0;     D：printf(\"NO%D：%f\\n\",n,ave);"
+      "A: if(      x      >      0      )      y=1;      else      if(      x      ==      0      )      y=0;      else      y      =      -1;",
+      "B: y=0;      if(      x      >      0      )      y=1;      else      if(      x      <      0      )      y=-1;",
+      "C: y=0;      if(      x      >=      0      )      if(      x      >      0      )      y=1;      else      y=-1;",
+      "D: if(x      >=      0      )      if(      x      >      0      )      y=1;      else      y=0;      else      y=-1;      答案：C      评析：      空      知识点：知识点/选择题/C4选择结构程序设计/IF语句的嵌套T      217、以下程序的功能是：按顺序读入10名学生4门课程的成绩，计算出每位学生的平均分并输出，程序如下：      main()      {int      n,k;      float      score,sum,ave;      sum=0.0;      for(n=1;n<=10;n++)      {for(k=1;k<=4;k++)      {scanf(\"%f\",&score);      sum+=score;}      ave=sum/4.0;      printf(\"NO%D：%f\\n\",n,ave);      }      }      上述程序运行后结果不正确，调试中发现有一条语句出现在程序的位置不正确。这条语句是______。      A：sum=0.0;      B：sum+=score;      C：ave=sum/4.0;      D：printf(\"NO%D：%f\\n\",n,ave);"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C5循环结构程序设计/循环嵌套T"
@@ -3085,10 +3085,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{  int  m[][3]={1,4,7,2,5,8,3,6,9};\nint  i,j,k=2;\nfor(i=0;i<3;i++)\n{   printf(\"%d \",m[k][i]);  }\n}\n执行后输出结果是______。",
     "options": [
-      "A: 4     5     6",
-      "B: 2     5     8",
-      "C: 3     6     9",
-      "D: 7     8     9"
+      "A: 4      5      6",
+      "B: 2      5      8",
+      "C: 3      6      9",
+      "D: 7      8      9"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/二维数组与双重循环T"
@@ -3124,10 +3124,10 @@
     "type": "single",
     "question": "设有如下说明\ntypedef struct\n{  int  n;  char  c;  double  x;}STD;\n则以下选项中 ，能正确定义结构体数组并赋初值的语句是______。",
     "options": [
-      "A: STD     tt[2]={{1,'A',62},{2,'B',75}};",
-      "B: STD     tt[2]={1,\"A\",62,2,\"\",75};",
-      "C: struct     tt[2]={{1,'A'},{2,'B'}};",
-      "D: struct     tt[2]={{1,\"A\",62.5},{2,\"B\",75.0}};"
+      "A: STD      tt[2]={{1,'A',62},{2,'B',75}};",
+      "B: STD      tt[2]={1,\"A\",62,2,\"\",75};",
+      "C: struct      tt[2]={{1,'A'},{2,'B'}};",
+      "D: struct      tt[2]={{1,\"A\",62.5},{2,\"B\",75.0}};"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体数组定义与初始化T"
@@ -3150,10 +3150,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{  char  str[]=\"xyz\",*ps=str;\nwhile(*ps) ps++;  \nfor(ps--;ps-str>=0;ps--)  puts(ps);}\n执行后输出结果是______。",
     "options": [
-      "A: yz     xyz",
-      "B: z     yz",
-      "C: z     yz     xyz",
-      "D: x     xy     xyz"
+      "A: yz      xyz",
+      "B: z      yz",
+      "C: z      yz      xyz",
+      "D: x      xy      xyz"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/【"
@@ -3228,10 +3228,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{ int a;   char c=10;\nfloat f=100.0;   double x;\na=f/=c*=(x=6.5);\nprintf(\"%d %d %3.1f %3.1f\\n\",a,c,f,x);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 1     65     1     6.5",
-      "B: 1     65     1.5     6.5",
-      "C: 1     65     1.0     6.5",
-      "D: 2     65     1.5     6.5"
+      "A: 1      65      1      6.5",
+      "B: 1      65      1.5      6.5",
+      "C: 1      65      1.0      6.5",
+      "D: 2      65      1.5      6.5"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/赋值表达式的求值规则T"
@@ -3280,10 +3280,10 @@
     "type": "single",
     "question": "有定义语句：int a=1,b=2,c=3,x;，则以下选项中各程序段执行后，x的值不为3的是______。",
     "options": [
-      "A: if     (c<a)     x=1;     else     if     (b<a)     x=2;     else     x=3;",
-      "B: if     (a<3)     x=3;     else     if     (a<2)     x=2;     else     x=1;",
-      "C: if     (a<3)     x=3;     if     (a<2)     x=2;     if     (a<1)     x=1;",
-      "D: if     (a<b)     x=b;     if     (b<c)     x=c;     if     (c<a)     x=a;"
+      "A: if      (c<a)      x=1;      else      if      (b<a)      x=2;      else      x=3;",
+      "B: if      (a<3)      x=3;      else      if      (a<2)      x=2;      else      x=1;",
+      "C: if      (a<3)      x=3;      if      (a<2)      x=2;      if      (a<1)      x=1;",
+      "D: if      (a<b)      x=b;      if      (b<c)      x=c;      if      (c<a)      x=a;"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C4选择结构程序设计/IF语句的嵌套T"
@@ -3335,7 +3335,7 @@
       "A: 1",
       "B: 2",
       "C: 3",
-      "D: 4     答案：B     评析：     空     知识点：知识点/选择题/C9结构体与共用体/结构体类型及变量定义T     265、已定义以下函数     fun(int     *p)     {     return     *p;     }     该函数的返回值是______。     A：不确定的值     B：形参p中存放的值     C：形参p所指存储单元中的值     D：形参p的地址值"
+      "D: 4      答案：B      评析：      空      知识点：知识点/选择题/C9结构体与共用体/结构体类型及变量定义T      265、已定义以下函数      fun(int      *p)      {      return      *p;      }      该函数的返回值是______。      A：不确定的值      B：形参p中存放的值      C：形参p所指存储单元中的值      D：形参p的地址值"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/指针与函数基本概念"
@@ -3488,10 +3488,10 @@
     "type": "single",
     "question": "以下程序段中与语句k=a>b?(b>c?1:0):0;功能等价的是______。",
     "options": [
-      "A: if((a>b)&&(b>c))k=1;     else     k=0;",
-      "B: if((a>b)||(b>c))k=1;     else     k=0;",
-      "C: if(a<=b)     k=0;     else     if(b<=c)     k=1;",
-      "D: if(a>b)     k=1;     else     if(b>c)     k=1;     else     k=0;"
+      "A: if((a>b)&&(b>c))k=1;      else      k=0;",
+      "B: if((a>b)||(b>c))k=1;      else      k=0;",
+      "C: if(a<=b)      k=0;      else      if(b<=c)      k=1;",
+      "D: if(a>b)      k=1;      else      if(b>c)      k=1;      else      k=0;"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C4选择结构程序设计/IF语句的嵌套T"
@@ -3501,10 +3501,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{  char k; int i;\nfor(i=1;i<3;i++)\n{ scanf(\"%c\",&k);\nswitch(k)\n{ case '0': printf(\"another\\n\");\ncase '1': printf(\"number\\n\");\n}\n}\n}\n程序运行时，从键盘输入：01↙，程序执行后的输出结果是______。",
     "options": [
-      "A: another     number",
-      "B: another     number     another",
-      "C: another     number     number",
-      "D: number     number"
+      "A: another      number",
+      "B: another      number      another",
+      "C: another      number      number",
+      "D: number      number"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C5循环结构程序设计/循环嵌入switch语句T"
@@ -3553,10 +3553,10 @@
     "type": "single",
     "question": "若程序中定义了以下函数\ndouble myadd(double a,double b)\n{return(a+b);}\n并将其放在调用语句之后，则在调用之前应该对函数进行说明，以下选项中错误的说明是______。",
     "options": [
-      "A: double     myadd(double     a,     b);",
-      "B: double     myadd(double,double);",
-      "C: double     myadd(double     b,     double     a);",
-      "D: double     myadd(double     x,     double     y);"
+      "A: double      myadd(double      a,      b);",
+      "B: double      myadd(double,double);",
+      "C: double      myadd(double      b,      double      a);",
+      "D: double      myadd(double      x,      double      y);"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C6函数与编译预处理/函数的基本概念"
@@ -3582,7 +3582,7 @@
       "A: 可用S定义结构体变量",
       "B: 可以用T定义结构体变量",
       "C: S是struct类型的变量",
-      "D: T是struct     S类型的变量"
+      "D: T是struct      S类型的变量"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/typedef的应用T"
@@ -3592,10 +3592,10 @@
     "type": "single",
     "question": "有以下程序\nstruct STU{\nchar name[10];\nint num;\n};\nvoid f1(struct STU c)\n{struct STU b={\"LiSiGuo\",2042};\nc=b;\n}\nvoid f2(struct STU *c)\n{struct STU b={\"SunDan\",2044};\n*c=b;\n}\nmain()\n{struct STU a={\"YangSan\",2041},b={\"WangYin\",2043};\nf1(a);f2(&b);\nprintf(\"%d %d\\n\",a.num,b.num);\n}\n执行后输出结果是______。",
     "options": [
-      "A: 2041     2044",
-      "B: 2041     2043",
-      "C: 2042     2044",
-      "D: 2042     2043"
+      "A: 2041      2044",
+      "B: 2041      2043",
+      "C: 2042      2044",
+      "D: 2042      2043"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/【"
@@ -3605,10 +3605,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{ unsigned char a,b;\na=4|3;\nb=4&3;\nprintf(\"%d %d\\n\",a,b);\n}\n执行后输出结果是______。",
     "options": [
-      "A: 7     0",
-      "B: 0     7",
-      "C: 1     1",
-      "D: 43     0"
+      "A: 7      0",
+      "B: 0      7",
+      "C: 1      1",
+      "D: 43      0"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C10位运算/位运算T"
@@ -3644,10 +3644,10 @@
     "type": "single",
     "question": "以下定义语句中正确的是______。",
     "options": [
-      "A: char     a='A'b='B';",
-      "B: float     a=b=10.0;",
-      "C: int     a=10,*b=&a;",
-      "D: float     *a,b=&a;"
+      "A: char      a='A'b='B';",
+      "B: float      a=b=10.0;",
+      "C: int      a=10,*b=&a;",
+      "D: float      *a,b=&a;"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/指针与变量T"
@@ -3696,10 +3696,10 @@
     "type": "single",
     "question": "下列条件语句中，功能与其他语句不同的是______。",
     "options": [
-      "A: if(a)     printf(\"%d\\n\",x);     else     printf(\"%d\\n\",y);",
-      "B: if(a==0)     printf(\"%d\\n\",y);     else     printf(\"%d\\n\",x);",
-      "C: if     (a!=0)     printf(\"%d\\n\",x);     else     printf(\"%d\\n\",y);",
-      "D: if(a==0)     printf(\"%d\\n\",x);     else     printf(\"%d\\n\",y);"
+      "A: if(a)      printf(\"%d\\n\",x);      else      printf(\"%d\\n\",y);",
+      "B: if(a==0)      printf(\"%d\\n\",y);      else      printf(\"%d\\n\",x);",
+      "C: if      (a!=0)      printf(\"%d\\n\",x);      else      printf(\"%d\\n\",y);",
+      "D: if(a==0)      printf(\"%d\\n\",x);      else      printf(\"%d\\n\",y);"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C4选择结构程序设计/IF语句T"
@@ -3722,10 +3722,10 @@
     "type": "single",
     "question": "设有定义语句\nint x[6]={2,4,6,8,5,7},*p=x,i;\n要求依次输出x数组6个元素中的值，不能完成此操作的语句是______。",
     "options": [
-      "A: for(i=0;i<6;i++)     printf(\"%2d\",*(p++));",
-      "B: for(i=0;i<6;i++)     printf(\"%2d\",*(p+i));",
-      "C: for(i=0;i<6;i++)     printf(\"%2d\",*p++);",
-      "D: for(i=0;i<6;i++)     printf(\"%2d\",(*p)++);"
+      "A: for(i=0;i<6;i++)      printf(\"%2d\",*(p++));",
+      "B: for(i=0;i<6;i++)      printf(\"%2d\",*(p+i));",
+      "C: for(i=0;i<6;i++)      printf(\"%2d\",*p++);",
+      "D: for(i=0;i<6;i++)      printf(\"%2d\",(*p)++);"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针处理一维数组T"
@@ -3736,9 +3736,9 @@
     "question": "有以下程序\n#include <stdio.h>\nmain()\n{int a[]={1,2,3,4,5,6,7,8,9,10,11,12,},*p=a+5,*q=NULL;\n*q=*(p+5);\nprintf(\"%d %d\\n\",*p,*q);\n}\n程序运行后的输出结果是______。",
     "options": [
       "A: 运行后报错",
-      "B: 6     6",
-      "C: 6     11",
-      "D: 5     10"
+      "B: 6      6",
+      "C: 6      11",
+      "D: 5      10"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/指针处理一维数组T"
@@ -3826,9 +3826,9 @@
     "type": "single",
     "question": "以下程序的功能是：建立一个带有头结点的单向链表，并将存储在数组中的字符依次转储到链表的各个结点中，请为下划线处有号码的选择出正确的选项。\n#include <stdlib.h>\nstuct node\n{ char data; struct node *next;};\n___(48)___ CreatList(char *s)\n{ struct node *h,*p,*q;\nh=(struct node *) malloc(sizeof(struct node));\np=q=h;\nwhile(*s!='\\0')\n{  p=(struct node *) malloc(sizeof(struct node));\np->data= ______  ;\nq->next=p;\nq=  ______ ;\ns++;\n}\np->next='\\0';\nreturn h;\n}\nmain()\n{ char str[]=\"link list\";\nstruct node *head;\nhead=CreatList(str);\n...\n}",
     "options": [
-      "A: char     *",
-      "B: struct     node",
-      "C: struct     node     *",
+      "A: char      *",
+      "B: struct      node",
+      "C: struct      node      *",
       "D: char"
     ],
     "answer": "C",
@@ -3904,10 +3904,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nmain()  \n{  int  a=-1,b=1,  k;\nif((++a<0)&&!(b--<=0))\nprintf(\"%d   %d\\n\",a,b);\nelse\nprintf(\"%d   %d\\n\",b,a);\n}",
     "options": [
-      "A: -1     1",
-      "B: 0     1",
-      "C: 1     0",
-      "D: 0     0"
+      "A: -1      1",
+      "B: 0      1",
+      "C: 1      0",
+      "D: 0      0"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C4选择结构程序设计/逻辑运算短路问题T"
@@ -3917,10 +3917,10 @@
     "type": "single",
     "question": "以下选项中，能定义s为合法的结构体变量的是______。",
     "options": [
-      "A: typedef     struct     abc     {     double     a;     char     b[10];     }     s;",
-      "B: struct     {     double     a;     char     b[10];     }s;",
-      "C: struct     ABC     {     double     a;     char     b[10];     }     ABC     s;",
-      "D: typedef     ABC     {     double     a;     char     b[10];     }     ABC     s;"
+      "A: typedef      struct      abc      {      double      a;      char      b[10];      }      s;",
+      "B: struct      {      double      a;      char      b[10];      }s;",
+      "C: struct      ABC      {      double      a;      char      b[10];      }      ABC      s;",
+      "D: typedef      ABC      {      double      a;      char      b[10];      }      ABC      s;"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体类型及变量定义T"
@@ -3972,7 +3972,7 @@
       "A: ①",
       "B: ②",
       "C: ③",
-      "D: ④     答案：B     评析：     空     知识点：知识点/选择题/C5循环结构程序设计/WHILE循环结构T     315、请读程序片段(字符串内没有空格字符)：     printf(\"%d\\n\",strlen(\"ATS\\n012\\1\\\\\")     );     上面程序片段的输出结果是______。     A：11     B：10     C：9     D：8"
+      "D: ④      答案：B      评析：      空      知识点：知识点/选择题/C5循环结构程序设计/WHILE循环结构T      315、请读程序片段(字符串内没有空格字符)：      printf(\"%d\\n\",strlen(\"ATS\\n012\\1\\\\\")      );      上面程序片段的输出结果是______。      A：11      B：10      C：9      D：8"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/字符串含转义字符T"
@@ -4177,10 +4177,10 @@
     "type": "single",
     "question": "可在C程序中用作用户标识符的一组标识符是______。",
     "options": [
-      "A: and     _2007",
-      "B: Date     y-m-d",
-      "C: Hi     Dr.Tom",
-      "D: case     Bigl"
+      "A: and      _2007",
+      "B: Date      y-m-d",
+      "C: Hi      Dr.Tom",
+      "D: case      Bigl"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/标识符T"
@@ -4190,10 +4190,10 @@
     "type": "single",
     "question": "以下选项中，合法的一组C语言数值常量是______。",
     "options": [
-      "A: 028     .5e-3     -0xf",
-      "B: 12.     0Xa23     4.5e0",
-      "C: .l77     4e1.5     0abc",
-      "D: 0x8A     10,000     3.e5"
+      "A: 028      .5e-3      -0xf",
+      "B: 12.      0Xa23      4.5e0",
+      "C: .l77      4e1.5      0abc",
+      "D: 0x8A      10,000      3.e5"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/常量T"
@@ -4268,10 +4268,10 @@
     "type": "single",
     "question": "有以下计算公式\n\n\n若程序前面已在命令行中包含math.h文件，不能够正确计算上述公式的程序段是______。",
     "options": [
-      "A: if(x>=0)     y=sqrt(x);     else     y=sqrt(-x);",
-      "B: y=sqrt(x);     if(x<0)     y=sqrt(-x);",
-      "C: if(x>=0)     y=sqrt(x);     if(x<0)     y=sqrt(-x);",
-      "D: y=sqrt(x>=0?x:-x);     答案：B     评析：     空     知识点：知识点/选择题/C4选择结构程序设计/IF语句T     339、设有条件表达式：(EXP)?i++:j--，则以下表达式中与(EXP)完全等价的是______。     A：(EXP==0)     B：(EXP!=0)     C：(EXP==1)     D：(EXP!=1)"
+      "A: if(x>=0)      y=sqrt(x);      else      y=sqrt(-x);",
+      "B: y=sqrt(x);      if(x<0)      y=sqrt(-x);",
+      "C: if(x>=0)      y=sqrt(x);      if(x<0)      y=sqrt(-x);",
+      "D: y=sqrt(x>=0?x:-x);      答案：B      评析：      空      知识点：知识点/选择题/C4选择结构程序设计/IF语句T      339、设有条件表达式：(EXP)?i++:j--，则以下表达式中与(EXP)完全等价的是______。      A：(EXP==0)      B：(EXP!=0)      C：(EXP==1)      D：(EXP!=1)"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C4选择结构程序设计/条件运算符T"
@@ -4322,7 +4322,7 @@
     "options": [
       "A: \"\\\\\\\"",
       "B: 'abc'",
-      "C: Olympic     Games",
+      "C: Olympic      Games",
       "D: \"\""
     ],
     "answer": "D",
@@ -4427,7 +4427,7 @@
       "A: ①",
       "B: ②",
       "C: ③",
-      "D: ④     答案：A     评析：     空     知识点：知识点/选择题/C8指针/指针与字符数组T     352、下面程序     #include<stdio.h>     #include<string.h>     main()     {     char     *p1=\"abc\",*p2=\"ABC\",str[50]=\"xyz\";     strcpy(str+2,strcat(p1,p2)     );     printf(\"%s\\n\",str);     }     的输出是______。     A：xyzabcABC     B：zabcABC     C：yzabcABC     D：xyabcABC"
+      "D: ④      答案：A      评析：      空      知识点：知识点/选择题/C8指针/指针与字符数组T      352、下面程序      #include<stdio.h>      #include<string.h>      main()      {      char      *p1=\"abc\",*p2=\"ABC\",str[50]=\"xyz\";      strcpy(str+2,strcat(p1,p2)      );      printf(\"%s\\n\",str);      }      的输出是______。      A：xyzabcABC      B：zabcABC      C：yzabcABC      D：xyabcABC"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针与字符串处理函数T"
@@ -4479,7 +4479,7 @@
       "A: ①",
       "B: ②",
       "C: ③",
-      "D: ④     答案：C     评析：     空     知识点：知识点/选择题/C4选择结构程序设计/IF语句的嵌套T     357、下面的程序     main()     {     int     a=2;     do{     printf(\"%d\\n\",a-=2);     }while(!(--a)     );     }     ______。     A：输出的是0     B：输出的是0和-3     C：输出的是3和0     D：是死循环"
+      "D: ④      答案：C      评析：      空      知识点：知识点/选择题/C4选择结构程序设计/IF语句的嵌套T      357、下面的程序      main()      {      int      a=2;      do{      printf(\"%d\\n\",a-=2);      }while(!(--a)      );      }      ______。      A：输出的是0      B：输出的是0和-3      C：输出的是3和0      D：是死循环"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C5循环结构程序设计/DO-WHILE循环T"
@@ -4489,10 +4489,10 @@
     "type": "single",
     "question": "下面各语句行中，能正确进行给字符串赋值操作的语句行是______。",
     "options": [
-      "A: char     st[4][5]={\"ABCDE\"};",
-      "B: char     s[5]={'A','B','C','D','E'};",
-      "C: char     *s=\"ABCDE\";",
-      "D: char     *s;     scanf(\"%s\",*s);"
+      "A: char      st[4][5]={\"ABCDE\"};",
+      "B: char      s[5]={'A','B','C','D','E'};",
+      "C: char      *s=\"ABCDE\";",
+      "D: char      *s;      scanf(\"%s\",*s);"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/指针与字符数组T"
@@ -4684,10 +4684,10 @@
     "type": "single",
     "question": "不能把字符串：Hello!赋给数组b的语句是______。",
     "options": [
-      "A: char     b[10]={'H','e','l','l','0','!'};",
-      "B: char     b[10]={'h','e','l','l','0','!'};",
-      "C: char     b[10];strcpy(b,\"Hello!\");",
-      "D: char     b[10]=\"Hello!\";"
+      "A: char      b[10]={'H','e','l','l','0','!'};",
+      "B: char      b[10]={'h','e','l','l','0','!'};",
+      "C: char      b[10];strcpy(b,\"Hello!\");",
+      "D: char      b[10]=\"Hello!\";"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C7数组/字符数组初始化T"
@@ -4777,7 +4777,7 @@
     "options": [
       "A: for(w=k;w!=0;w--)printf(\"*\");",
       "B: w=k;<CR>while(w--!=0)printf(\"*\");w++;",
-      "C: w=k;<CR>do     {     w--;printf(\"*\");}while(w!=0);",
+      "C: w=k;<CR>do      {      w--;printf(\"*\");}while(w!=0);",
       "D: for(w=k;w;--w)printf(\"*\");"
     ],
     "answer": "C",
@@ -4918,10 +4918,10 @@
     "type": "single",
     "question": "下面程序的输出是______。\nmain( )\n{ int t=1;\nfun ( fun ( t) );\n}\nfun ( int h)\n{ static int a[3]={1,2,3};\nint k;\nfor (k=0;k<3;k++)a[k]+=a[k]-h;\nfor (k=0;k<3;k++)printf(\"%d,\",a[k]);\nprintf(\"\\n\");return(a[h]);\n}",
     "options": [
-      "A: 1,3,5,     1,5,9,",
-      "B: 1,3,5,     1,3,5,",
-      "C: 1,3,5,     0,4,8,",
-      "D: 1,3,5,     -1,3,7,"
+      "A: 1,3,5,      1,5,9,",
+      "B: 1,3,5,      1,3,5,",
+      "C: 1,3,5,      0,4,8,",
+      "D: 1,3,5,      -1,3,7,"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/【"
@@ -4996,10 +4996,10 @@
     "type": "single",
     "question": "以下程序的输出结果是______。\nmain(  )\n{   int  w=5;  fun(w);  printf(\"\\n\"); }\nfun(int  k)\n{  if(k>0)  fun(k-1);\nprintf(\"%d\",k);\n}",
     "options": [
-      "A: 5     4     3     2     1",
-      "B: 0     1     2     3     4     5",
-      "C: 1     2     3     4     5",
-      "D: 5     4     3     2     1     0"
+      "A: 5      4      3      2      1",
+      "B: 0      1      2      3      4      5",
+      "C: 1      2      3      4      5",
+      "D: 5      4      3      2      1      0"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/函数的递归调用T"
@@ -5140,9 +5140,9 @@
     "question": "有以下程序\nmain()\n{  int m,n,p;\nscanf(\"m=%dn=%dp=%d\",&m,&n,&p);\nprintf(\"%d%d%d\\n\",m,n,p);\n}\n若想从键盘上输入数据，使变量m中的值为123，n中的值为456，p中的值为789，则正确的输入是______。",
     "options": [
       "A: m=123n=456p=789",
-      "B: m=123     n=456     p=789",
+      "B: m=123      n=456      p=789",
       "C: m=123,n=456,p=789",
-      "D: 123     456     789"
+      "D: 123      456      789"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C3顺序结构程序设计/输入函数T"
@@ -5165,10 +5165,10 @@
     "type": "single",
     "question": "有以下程序\nmain() \n{ int i=1,j=2,k=3; \nif(i++==1&&(++j==3||k++==3)) \nprintf(\"%d %d %d\\n\",i,j,k); \n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 1     2     3",
-      "B: 2     3     4",
-      "C: 2     2     3",
-      "D: 2     3     3"
+      "A: 1      2      3",
+      "B: 2      3      4",
+      "C: 2      2      3",
+      "D: 2      3      3"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C4选择结构程序设计/逻辑运算短路问题T"
@@ -5191,10 +5191,10 @@
     "type": "single",
     "question": "有以下程序\nmain() \n{ \nchar a[7]=\"a0\\0a0\\0\";\nint i,j; \ni=sizeof(a); \nj=strlen(a); \nprintf(\"%d %d\\n\",i,j); \n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 2     2",
-      "B: 7     6",
-      "C: 7     2",
-      "D: 6     2"
+      "A: 2      2",
+      "B: 7      6",
+      "C: 7      2",
+      "D: 6      2"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/字符数组内存分配及串长度T"
@@ -5204,10 +5204,10 @@
     "type": "single",
     "question": "以下能正确定义一维数组的选项是______。",
     "options": [
-      "A: int     a[5]={0,1,2,3,4,5};",
-      "B: char     a[]={0,1,2,3,4,5};",
-      "C: char     a={'A','B','C'};",
-      "D: int     a[5]=\"0123\";"
+      "A: int      a[5]={0,1,2,3,4,5};",
+      "B: char      a[]={0,1,2,3,4,5};",
+      "C: char      a={'A','B','C'};",
+      "D: int      a[5]=\"0123\";"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C7数组/数组基本概念"
@@ -5283,9 +5283,9 @@
     "question": "有以下程序\nmain() \n{ \nint a[3][2]={0},(*ptr)[2],i,j; \nfor(i=0;i<2;i++)  {ptr=a+i;  scanf(\"%d\",*ptr);  } \nfor(i=0;i<3;i++) \n{   for(j=0;j<2;j++) printf(\"%2d\",a[i][j]); \nprintf(\"\\n\"); \n} \n}\n若运行时输入：1 2 3<回车>，则输出结果是______。",
     "options": [
       "A: 产生错误信息",
-      "B: 1     0     2     0     0     0",
-      "C: 1     2     3     0     0     0",
-      "D: 1     0     2     0     3     0"
+      "B: 1      0      2      0      0      0",
+      "C: 1      2      3      0      0      0",
+      "D: 1      0      2      0      3      0"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C8指针/行指针应用T"
@@ -5399,10 +5399,10 @@
     "type": "single",
     "question": "若已建立如下图所示的单向链表结构:\np\ndata next  　　　  ↓\n┌─┬─┐　　　┌─┬─┐   ┌─┬─┐\nhead  →│  │  ┼→…→│E │  ┼→ │F │\\0│\n└─┴─┘　　　└─┴─┘   └─┴─┘\n\n┌─┬─┐\ns  →│G │  │\n└─┴─┘\n在该链表结构中，指针p、s 分别指向图中所示结点，则不能将s所指的结点插入到链表末尾仍构成单向链表的语句组是______。",
     "options": [
-      "A: p     =     p->next;     s->next     =     p;     p->next     =     s;",
-      "B: p     =     p->next;     s->next     =     p->next;     p->next     =     s;",
-      "C: s->next     =     NULL;     p     =     p->next;     p->next     =     s;",
-      "D: p     =     (*p).next;     (*s).next     =     (*p).next;     (*p).next     =     s;"
+      "A: p      =      p->next;      s->next      =      p;      p->next      =      s;",
+      "B: p      =      p->next;      s->next      =      p->next;      p->next      =      s;",
+      "C: s->next      =      NULL;      p      =      p->next;      p->next      =      s;",
+      "D: p      =      (*p).next;      (*s).next      =      (*p).next;      (*p).next      =      s;"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/链表T"
@@ -5412,10 +5412,10 @@
     "type": "single",
     "question": "有如下程序\nmain()\n{\n\tchar  s[] = \"ABCD\", *p;\n\tfor(p = s+1; p < s+4 ; p++)  printf(\"%s\\n\",p);\n}\n该程序的输出结果是______。",
     "options": [
-      "A: ABCD     BCD     CD     D",
-      "B: A     B     C     D",
-      "C: B     C     D",
-      "D: BCD     CD     D"
+      "A: ABCD      BCD      CD      D",
+      "B: A      B      C      D",
+      "C: B      C      D",
+      "D: BCD      CD      D"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针与字符数组T"
@@ -5477,10 +5477,10 @@
     "type": "single",
     "question": "以下所列的各函数声明中，正确的是______。",
     "options": [
-      "A: void     play(vara:Integer,var     b:Integer);",
-      "B: void     play(int     a,b);",
-      "C: void     play(int     a,int     b);",
-      "D: Sub     play(a     as     integer,b     as     integer);     答案：C     评析：     空     知识点：知识点/选择题/C6函数与编译预处理/函数的基本概念     435、下列程序段的输出结果是______。     void     fun(int     *x,int     *y)     {     printf(\"%d     %d\",*x,*y);*x=3;*y=4;}     main()     {     int     x=1,y=2;     fun(&y,&x);     printf(\"     %d     %d\",x,y);     }     A：2     1     4     3     B：1     2     1     2     C：1     2     3     4     D：2     1     1     2"
+      "A: void      play(vara:Integer,var      b:Integer);",
+      "B: void      play(int      a,b);",
+      "C: void      play(int      a,int      b);",
+      "D: Sub      play(a      as      integer,b      as      integer);      答案：C      评析：      空      知识点：知识点/选择题/C6函数与编译预处理/函数的基本概念      435、下列程序段的输出结果是______。      void      fun(int      *x,int      *y)      {      printf(\"%d      %d\",*x,*y);*x=3;*y=4;}      main()      {      int      x=1,y=2;      fun(&y,&x);      printf(\"      %d      %d\",x,y);      }      A：2      1      4      3      B：1      2      1      2      C：1      2      3      4      D：2      1      1      2"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/指针作函数参数T"
@@ -5503,10 +5503,10 @@
     "type": "single",
     "question": "下列程序的运行结果是______。\nvoid fun(int  *a,int  *b)\n{  int  *k;\nk=a;a=b;b=k;\n}\nmain()\n{  int a=3,b=6,*x=&a,*y=&b;\nfun(x,y);\nprintf(\"%d %d\",a,b);\n}",
     "options": [
-      "A: 6     3",
-      "B: 3     6",
+      "A: 6      3",
+      "B: 3      6",
       "C: 编译出错",
-      "D: 0     0"
+      "D: 0      0"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C8指针/指针作函数参数T"
@@ -5519,7 +5519,7 @@
       "A: 数组的长度",
       "B: 数组的首地址",
       "C: 数组每一个元素的地址",
-      "D: 数组每个元素中的值     答案：B     评析：     空     知识点：知识点/选择题/C7数组/数组基本概念     439、以下存储类型中，只有在使用时才为该类型的变量分配内存的是______。     A：auto和static     B：auto和register     C：register和static     D：extern和register"
+      "D: 数组每个元素中的值      答案：B      评析：      空      知识点：知识点/选择题/C7数组/数组基本概念      439、以下存储类型中，只有在使用时才为该类型的变量分配内存的是______。      A：auto和static      B：auto和register      C：register和static      D：extern和register"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/变量作用域与存储方式T"
@@ -5532,7 +5532,7 @@
       "A: 1,5,9,",
       "B: 1,4,7,",
       "C: 3,5,7,",
-      "D: 3,6,9,     答案：C     评析：     空     知识点：知识点/选择题/C7数组/二维数组与双重循环T     441、以下程序的输出结果是______。     main()     {     char     w[][10]={\"ABCD\",\"EFGH\",\"IJKL\",\"MNOP\"},k;     for(k=1;k<3;k++)     printf(\"%s\\n\",w[k]);     }     A：ABCD     FGH     KL     B：ABCD     EFG     IJ     M     C：EFG     JK     O     D：EFGH     IJKL"
+      "D: 3,6,9,      答案：C      评析：      空      知识点：知识点/选择题/C7数组/二维数组与双重循环T      441、以下程序的输出结果是______。      main()      {      char      w[][10]={\"ABCD\",\"EFGH\",\"IJKL\",\"MNOP\"},k;      for(k=1;k<3;k++)      printf(\"%s\\n\",w[k]);      }      A：ABCD      FGH      KL      B：ABCD      EFG      IJ      M      C：EFG      JK      O      D：EFGH      IJKL"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/二维数组与字符串T"
@@ -5594,10 +5594,10 @@
     "type": "single",
     "question": "假定建立了以下链表结构，指针p、q分别指向如图所示的结点，则以下可以将q所指结点从链表中删除并释放该结点的语句组是______。\n↓p              ↓q\n┌─┬─┐　　　┌─┬─┐   ┌─┬─┐\nhead  →│8 │  ┼→…→│4 │  ┼→ │ 3│  ┼→……\n└─┴─┘　　　└─┴─┘   └─┴─┘\ndata next",
     "options": [
-      "A: free(q);     p->next=q->next;",
-      "B: (*p).next=(*q).next;     free(q);",
-      "C: q=(*q).next;     (*p).next=q;     free(q);",
-      "D: q=q->next;     p->next=q;     p=p->next;free(p);"
+      "A: free(q);      p->next=q->next;",
+      "B: (*p).next=(*q).next;      free(q);",
+      "C: q=(*q).next;      (*p).next=q;      free(q);",
+      "D: q=q->next;      p->next=q;      p=p->next;free(p);"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/链表T"
@@ -5620,10 +5620,10 @@
     "type": "single",
     "question": "以下语句或语句组中,能正确进行字符串赋值的是______。",
     "options": [
-      "A: char     *sp;*sp=\"right!\";",
-      "B: char     s[10];s=\"right!\";",
-      "C: char     s[10];*s=\"right!\";",
-      "D: char     *sp=\"right!\";"
+      "A: char      *sp;*sp=\"right!\";",
+      "B: char      s[10];s=\"right!\";",
+      "C: char      s[10];*s=\"right!\";",
+      "D: char      *sp=\"right!\";"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针变量定义与初始化T"
@@ -5724,10 +5724,10 @@
     "type": "single",
     "question": "以下对结构体类型变量td的定义中，错误的是______。",
     "options": [
-      "A: typedef     struct     aa     {     int     n;     float     m;     }AA;     AA     td;",
-      "B: struct     aa     {     int     n;     float     m;     };     struct     aa     td;",
-      "C: struct     {     int     n;     float     m;     }aa;     struct     aa     td;",
-      "D: struct     {     int     n;     float     m;     }td;"
+      "A: typedef      struct      aa      {      int      n;      float      m;      }AA;      AA      td;",
+      "B: struct      aa      {      int      n;      float      m;      };      struct      aa      td;",
+      "C: struct      {      int      n;      float      m;      }aa;      struct      aa      td;",
+      "D: struct      {      int      n;      float      m;      }td;"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体类型及变量定义T"
@@ -5880,10 +5880,10 @@
     "type": "single",
     "question": "以下数组定义中不正确的是______。",
     "options": [
-      "A: int     a[2][3];",
-      "B: int     b[][3]={0,1,2};",
-      "C: int     c[100][100]={0};",
-      "D: int     d[3][]={{1,2},{1,2,3},{1,2,3,4}};"
+      "A: int      a[2][3];",
+      "B: int      b[][3]={0,1,2};",
+      "C: int      c[100][100]={0};",
+      "D: int      d[3][]={{1,2},{1,2,3},{1,2,3,4}};"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/二维数组定义初始化及引用T"
@@ -5906,10 +5906,10 @@
     "type": "single",
     "question": "以下选项中，不能正确赋值的是______。",
     "options": [
-      "A: char     s1[10];s1=\"chest\";",
-      "B: char     s2[]={'C','t','e','s','t'};",
-      "C: char     s3[20]=\"Chest\";",
-      "D: char     *s4=\"Chest\\n\";"
+      "A: char      s1[10];s1=\"chest\";",
+      "B: char      s2[]={'C','t','e','s','t'};",
+      "C: char      s3[20]=\"Chest\";",
+      "D: char      *s4=\"Chest\\n\";"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/指针变量定义与初始化T"
@@ -5946,8 +5946,8 @@
     "question": "下面的程序执行后，文件test.t中内容是______。\n#include <stdio.h>\nvoid fun(char *fname,char *st)\n{ FILE *myf;  int i;\nmyf=fopen(fname,\"w\");\nfor(i=0;i<strlen(st);i++)fputc(st[i],myf);\nfclose(myf);\n}\nmain()\n{fun(\"test.t\",\"new world\"); fun(\"test.t\",\"hello,\");}",
     "options": [
       "A: hello,",
-      "B: new     worldhello",
-      "C: new     world",
+      "B: new      worldhello",
+      "C: new      world",
       "D: hello,rld"
     ],
     "answer": "A",
@@ -5986,7 +5986,7 @@
     "options": [
       "A: C语言中对二进制文件的访问速度比文本文件快",
       "B: C语言中，随机文件以二进制代码形式存储数据",
-      "C: 语句FILE     *fp;定义了一个名为fp的文件指针",
+      "C: 语句FILE      *fp;定义了一个名为fp的文件指针",
       "D: C语言中的文本文件以ASCII码形式存储数据"
     ],
     "answer": "B",
@@ -6013,7 +6013,7 @@
       "A: 1/3*sin(1/2)*sin(1/2)",
       "B: sin(0.5)*sin(0.5)/3",
       "C: pow(sin(0.5),2)/3",
-      "D: 1/3.0*pow(sin(1.0/2),2)     答案：A     评析：     空     知识点：知识点/选择题/C6函数与编译预处理/数学库函数应用T     479、以下能正确定义且赋初值的语句是______。     A：int     n1=n2=10;     B：char     c=32;     C：float     f=f+1.1;     D：double     x=12.3E2.5;"
+      "D: 1/3.0*pow(sin(1.0/2),2)      答案：A      评析：      空      知识点：知识点/选择题/C6函数与编译预处理/数学库函数应用T      479、以下能正确定义且赋初值的语句是______。      A：int      n1=n2=10;      B：char      c=32;      C：float      f=f+1.1;      D：double      x=12.3E2.5;"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/表达式及语句合法性判断T"
@@ -6049,10 +6049,10 @@
     "type": "single",
     "question": "设变量已正确定义，则以下能正确计算f=n!的程序段是______。",
     "options": [
-      "A: f=0;     for(i=1;i<=n;i++)     f*=i;",
-      "B: f=1;     for(i=1;i<n;i++)     f*=i;",
-      "C: f=1;     for(i=n;i>1;i++)     f*=i;",
-      "D: f=1;     for(i=n;i>=2;i--)     f*=i;"
+      "A: f=0;      for(i=1;i<=n;i++)      f*=i;",
+      "B: f=1;      for(i=1;i<n;i++)      f*=i;",
+      "C: f=1;      for(i=n;i>1;i++)      f*=i;",
+      "D: f=1;      for(i=n;i>=2;i--)      f*=i;"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C5循环结构程序设计/FOR循环结构T"
@@ -6270,10 +6270,10 @@
     "type": "single",
     "question": "若有以下定义：\nstruct link\n{  int data;\nstruct link *next;\n}a,b,c,*p,*q;\n且变量a和b之间已有如图所示的链表结构：\na                    b\ndata   next           data   next\n┌─────┐　　　　┌─────┐\n│    |     │     　 │    |     │ \n│ 5  |    ------→   │ 9  |     │\n│    |     │        │    |     │\n└─────┘　　　　└─────┘\nc\ndata    next\n┌─────┐  \n│    |     │\n│  7 |     │\n│    |     │\n└─────┘\n↑q\n指针p指向变量a，q指向变量c。则能够把c插入到a和b之间并形成新的链表的语句组是______。",
     "options": [
-      "A: a.next=c;     c.next=b;",
-      "B: p.next=q;     q.next=p.next;",
-      "C: p->next=&c;     q->next=p->next;",
-      "D: (*p).next=q;     (*q).next=&b;"
+      "A: a.next=c;      c.next=b;",
+      "B: p.next=q;      q.next=p.next;",
+      "C: p->next=&c;      q->next=p->next;",
+      "D: (*p).next=q;      (*q).next=&b;"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C9结构体与共用体/链表T"
@@ -6285,7 +6285,7 @@
     "options": [
       "A: PER是结构体变量名",
       "B: PER是结构体类型名",
-      "C: typedef     struct是结构体类型",
+      "C: typedef      struct是结构体类型",
       "D: struct是结构体类型名"
     ],
     "answer": "B",
@@ -6309,10 +6309,10 @@
     "type": "single",
     "question": "有以下程序\nmain() \n{char  p[]={'a','b','c'},q[]=\"abc\";\nprintf(\"%d  %d\\n\",sizeof(p),sizeof(q)); \n} \n程序运行后的输出结果是______。",
     "options": [
-      "A: 4     4",
-      "B: 3     3",
-      "C: 3     4",
-      "D: 4     3"
+      "A: 4      4",
+      "B: 3      3",
+      "C: 3      4",
+      "D: 4      3"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/字符数组内存分配及串长度T"
@@ -6413,10 +6413,10 @@
     "type": "single",
     "question": "有以下程序\nvoid swap1(int  c0[],int  c1[])\n{ int  t;\nt=c0[0];  c0[0]=c1[0];  c1[0]=t;\n}\nvoid swap2(int  *c0,int  *c1)\n{ int t;\nt=*c0;  *c0=*c1;  *c1=t;\n}\nmain()\n{int  a[2]={3,5},  b[2]={3,5};\nswap1(a,a+1);  swap2(&b[0],&b[1]);\nprintf(\"%d %d %d %d\\n\",a[0],a[1],b[0],b[1]);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 3     5     5     3",
-      "B: 5     3     3     5",
-      "C: 3     5     3     5",
-      "D: 5     3     5     3"
+      "A: 3      5      5      3",
+      "B: 5      3      3      5",
+      "C: 3      5      3      5",
+      "D: 5      3      5      3"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/【"
@@ -6504,10 +6504,10 @@
     "type": "single",
     "question": "有以下程序\n#include <stdio.h>\nmain()\n{FILE *fp; int i=20,j=30,k,n;\nfp=fopen(\"d1.dat\",\"w\");\nfprintf(fp,\"%d\\n\",i);fprintf(fp,\"%d\\n\",j);\nfclose(fp);\nfp=fopen(\"d1.dat\",\"r\");\nfscanf(fp,\"%d%d\",&k,&n); printf(\"%d%d\\n\",k,n);\nfclose(fp);\n}\n程序运行后的输出结果是_____。",
     "options": [
-      "A: 20     30",
-      "B: 20     50",
-      "C: 30     50",
-      "D: 30     20"
+      "A: 20      30",
+      "B: 20      50",
+      "C: 30      50",
+      "D: 30      20"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C11文件/格式化读写函数T"
@@ -6582,10 +6582,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{unsigned char a,b,c;\na=0x3; b=a|0x8; c=b<<1;\nprintf(\"%d%d\\n\",b,c);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: -11     12",
-      "B: -6     -13",
-      "C: 12     24",
-      "D: 11     22"
+      "A: -11      12",
+      "B: -6      -13",
+      "C: 12      24",
+      "D: 11      22"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C10位运算/位运算T"
@@ -6595,10 +6595,10 @@
     "type": "single",
     "question": "有以下程序\n#include <stdlib.h>\nmain()\n{char *p,*q;\np=(char *)malloc(sizeof(char)*20); q=p;\nscanf(\"%s%s\",p,q); printf(\"%s%s\\n\",p,q);\n}\n若从键盘输入：abc def↙，则输出结果是______。",
     "options": [
-      "A: def     def",
-      "B: abc     def",
-      "C: abc     d",
-      "D: d     d"
+      "A: def      def",
+      "B: abc      def",
+      "C: abc      d",
+      "D: d      d"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/动态内存分配T"
@@ -6663,7 +6663,7 @@
       "A: 程序中只有a='\\';语句不正确",
       "B: b='\\xbc';语句不正确",
       "C: d='\\0127';语句不正确",
-      "D: a='\\';和     c='\\0xab';语句都不正确"
+      "D: a='\\';和      c='\\0xab';语句都不正确"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/转义字符T"
@@ -6712,10 +6712,10 @@
     "type": "single",
     "question": "有以下程序\nfloat f1(float  n)\n{  return  n*n;  }\nfloat f2(float  n)\n{  return  2*n;  }\nmain()\n{ float  (*p1)(float),(*p2)(float),(*t)(float),y1,y2;\np1=f1;  p2=f2;\ny1=p2(p1(2.0));\nt=p1;   p1=p2;   p2=t;\ny2=p2(p1(2.0));\nprintf(\"%3.0f,%3.0f\\n\",y1,y2);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 8,     16",
-      "B: 8,     8",
-      "C: 16,     16",
-      "D: 4,     8"
+      "A: 8,      16",
+      "B: 8,      8",
+      "C: 16,      16",
+      "D: 4,      8"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/指向函数的指针T"
@@ -6738,10 +6738,10 @@
     "type": "single",
     "question": "有以下程序\n#include  <string.h>\nstruct STU\n{char  name[10];\nint  num;\n}; \nvoid f(char  *name,  int  num)\n{ struct STU  s[2]={{\"SunDan\",20044},{\"Penghua\",20045}};\nnum=s[0].num;\nstrcpy(name,s[0].name);\n}\nmain()\n{ struct STU  s[2]={{\"YangSan\",20041},{\"LiSiGao\",20042}},*p;\np=&s[1];  f(p->name,p->num);\nprintf(\"%s  %d\\n\",p->name,p->num);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: SunDan     20042",
-      "B: SunDan     20044",
-      "C: LiSiGuo     20042",
-      "D: YangSan     20041"
+      "A: SunDan      20042",
+      "B: SunDan      20044",
+      "C: LiSiGuo      20042",
+      "D: YangSan      20041"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/【"
@@ -6751,10 +6751,10 @@
     "type": "single",
     "question": "有以下程序\nstruct STU\n{ char  name[10];  int  num;  float  TotalScore; };\nvoid f(struct STU  *p)\n{ struct STU  s[2]={{\"SunDan\",20044,550},{\"Penghua\",20045,537}},*q=s;\n++p;  ++q;  *p=*q;\n}\nmain()\n{ struct STU  s[3]={ {\"YangSan\",20041,703},{\"LiSiGuo\",20042,580}};\nf(s);\nprintf(\"%s  %d  %3.0f\\n\",s[1].name, s[1].num,s[1].TotalScore);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: SunDan     20044     550",
-      "B: Penghua     20045     537",
-      "C: LiSiGuo     20042     580",
-      "D: SunDan     20041     703"
+      "A: SunDan      20044      550",
+      "B: Penghua      20045      537",
+      "C: LiSiGuo      20042      580",
+      "D: SunDan      20041      703"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/【"
@@ -6764,10 +6764,10 @@
     "type": "single",
     "question": "以下程序的功能是进行位运算\nmain()\n{ unsigned char  a,b;\na=7^3;  b=~4&3;\nprintf(\"%d  %d\\n\",a,b);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 4     3",
-      "B: 7     3",
-      "C: 7     0",
-      "D: 4     0"
+      "A: 4      3",
+      "B: 7      3",
+      "C: 7      0",
+      "D: 4      0"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C10位运算/位运算T"
@@ -6777,10 +6777,10 @@
     "type": "single",
     "question": "有以下程序\n#include   <stdio.h>\nmain() \n{ FILE  *fp;   int  i,k,n;\nfp=fopen(\"data.dat\",\"w+\");\nfor(i=1;i<6;i++)\n{fprintf(fp,\"%d  \",i);\nif(i%3==0)  fprintf(fp,\"\\n\");\n}\nrewind(fp);\nfscanf(fp,\"%d%d\",&k,&n);  printf(\"%d  %d\\n\",k,n);\nfclose(fp); \n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 0     0",
-      "B: 123     45",
-      "C: 1     4",
-      "D: 1     2"
+      "A: 0      0",
+      "B: 123      45",
+      "C: 1      4",
+      "D: 1      2"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C11文件/格式化读写函数T"
@@ -6790,10 +6790,10 @@
     "type": "single",
     "question": "以下能正确定义数组并正确赋初值的语句是______。",
     "options": [
-      "A: int     N=5,b[N][N];",
-      "B: int     a[1][2]={{1},{3}};",
-      "C: int     c[2][]={{1,2},{3,4}};",
-      "D: int     d[3][2]={{1,2},{3,4}};"
+      "A: int      N=5,b[N][N];",
+      "B: int      a[1][2]={{1},{3}};",
+      "C: int      c[2][]={{1,2},{3,4}};",
+      "D: int      d[3][2]={{1,2},{3,4}};"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/二维数组定义初始化及引用T"
@@ -6829,10 +6829,10 @@
     "type": "single",
     "question": "设有如下说明\ntypedef struct\n{int  n;char  c;double  x;}ST;\n则以下选项中 ，能正确定义结构体数组并赋初值的语句是______。",
     "options": [
-      "A: ST     tt[2]={{3,'m',48},{5,'k',66}};",
-      "B: ST     tt[2]={1,\"A\",32,2,\"\",85};",
-      "C: struct     tt[2]={1,'A',2,'B'};",
-      "D: struct     tt[2]={{1,\"A\",62.5},{2,\"B\",75.0}};"
+      "A: ST      tt[2]={{3,'m',48},{5,'k',66}};",
+      "B: ST      tt[2]={1,\"A\",32,2,\"\",85};",
+      "C: struct      tt[2]={1,'A',2,'B'};",
+      "D: struct      tt[2]={{1,\"A\",62.5},{2,\"B\",75.0}};"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体数组定义与初始化T"
@@ -6842,10 +6842,10 @@
     "type": "single",
     "question": "有以下程序\nvoid  fun(int *a,int i,int  j)\n{  int  t;\nif (i<j)\n{  t=a[i];a[i]=a[j];a[j]=t;\nfun(a,++i,--j);\n}\n}\nmain()\n{ int  a[]={1,2,3,4,5,6},i;\nfun(a,0,5);\nfor(i=0;i<6;i++)\nprintf(\"%d \",a[i]);\n}\n执行后输出结果是______。",
     "options": [
-      "A: 6     5     4     3     2     1",
-      "B: 4     3     2     1     5     6",
-      "C: 4     5     6     1     2     3",
-      "D: 1     2     3     4     5     6"
+      "A: 6      5      4      3      2      1",
+      "B: 4      3      2      1      5      6",
+      "C: 4      5      6      1      2      3",
+      "D: 1      2      3      4      5      6"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/【"
@@ -6868,10 +6868,10 @@
     "type": "single",
     "question": "若要说明一个类型名STP，使得定义语句STP  s;等价于char  *s;，以下选项中正确的是______。",
     "options": [
-      "A: typedef     STP     char     *s;",
-      "B: typedef     *char     STP;",
-      "C: typedef     STP     *char;",
-      "D: typedef     char*     STP     ;"
+      "A: typedef      STP      char      *s;",
+      "B: typedef      *char      STP;",
+      "C: typedef      STP      *char;",
+      "D: typedef      char*      STP      ;"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C9结构体与共用体/基本数据类型重定义T"
@@ -6907,9 +6907,9 @@
     "type": "single",
     "question": "有定义语句：int x,y;。若要通过scanf(\"%d,%d\",&x,&y);语句使变量x得到数值11，变量y得到数值12，下面四组输入形式中，错误的是______。",
     "options": [
-      "A: 11     12↙",
+      "A: 11      12↙",
       "B: 11,12↙",
-      "C: 11,     12↙",
+      "C: 11,      12↙",
       "D: 11,↙12↙"
     ],
     "answer": "A",
@@ -6946,10 +6946,10 @@
     "type": "single",
     "question": "若程序中已包含头文件stdio.h，以下选项中，正确运用指针变量的程序段是______。",
     "options": [
-      "A: int     *i=NULL;     scanf(\"%d\",i);",
-      "B: float     *f=NULL;     *f=10.5;",
-      "C: char     t='m',*c=&t;     *c=&t;",
-      "D: long     *L;     L='\\0';"
+      "A: int      *i=NULL;      scanf(\"%d\",i);",
+      "B: float      *f=NULL;      *f=10.5;",
+      "C: char      t='m',*c=&t;      *c=&t;",
+      "D: long      *L;      L='\\0';"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针变量定义与初始化T"
@@ -6972,10 +6972,10 @@
     "type": "single",
     "question": "以下不能正确定义二维数组的选项是______。",
     "options": [
-      "A: int     a[2][2]={{1},{2}};",
-      "B: int     a[][2]={1,2,3,4};",
-      "C: int     a[2][2]={{1},2,3};",
-      "D: int     a[2][]={{1,2},{3,4}};     答案：D     评析：     空     知识点：知识点/选择题/C7数组/二维数组定义初始化及引用T     554、以下能正确定义一维数组的选项是______。     A：int     num[]     B：#define     N     100     int     num[N]     C：int     num[0..100]     D：int     N=100;     int     num[N]"
+      "A: int      a[2][2]={{1},{2}};",
+      "B: int      a[][2]={1,2,3,4};",
+      "C: int      a[2][2]={{1},2,3};",
+      "D: int      a[2][]={{1,2},{3,4}};      答案：D      评析：      空      知识点：知识点/选择题/C7数组/二维数组定义初始化及引用T      554、以下能正确定义一维数组的选项是______。      A：int      num[]      B：#define      N      100      int      num[N]      C：int      num[0..100]      D：int      N=100;      int      num[N]"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C7数组/数组基本概念"
@@ -6985,10 +6985,10 @@
     "type": "single",
     "question": "下列选项中正确的语句组是______。",
     "options": [
-      "A: char     s[8];     s={\"Beijing\"};",
-      "B: char     *s;     s={\"Beijing\"};",
-      "C: char     s[8];     s=\"Beijing\";",
-      "D: char     *s;     s=\"Beijing\";     答案：D     评析：     空     知识点：知识点/选择题/C8指针/指针变量定义与初始化T     556、下列函数定义中，会出现编译错误的是______。     A：max(int     x,int     y,int     z)     {z=x>y     ?     x:y;}     B：int     max(int     x,y)     {     int     z;     z=x>y     ?     x:y;     return     z;}     C：max(int     x,int     y)     {     int     z;     z=x>y?x:y;     return(z);}     D：int     max(int     x,int     y)     {     return(x>y?x:y);     }"
+      "A: char      s[8];      s={\"Beijing\"};",
+      "B: char      *s;      s={\"Beijing\"};",
+      "C: char      s[8];      s=\"Beijing\";",
+      "D: char      *s;      s=\"Beijing\";      答案：D      评析：      空      知识点：知识点/选择题/C8指针/指针变量定义与初始化T      556、下列函数定义中，会出现编译错误的是______。      A：max(int      x,int      y,int      z)      {z=x>y      ?      x:y;}      B：int      max(int      x,y)      {      int      z;      z=x>y      ?      x:y;      return      z;}      C：max(int      x,int      y)      {      int      z;      z=x>y?x:y;      return(z);}      D：int      max(int      x,int      y)      {      return(x>y?x:y);      }"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/函数的基本概念"
@@ -7141,10 +7141,10 @@
     "type": "single",
     "question": "以下程序段中与语句k=a>b?(b>c?1:0):0;功能等价的是______。",
     "options": [
-      "A: if((a>b)&&(b>c))k=1;     else     k=0;",
-      "B: if((a>b)||(b>c))k=1;     else     k=0;",
-      "C: if(a<=b)     k=0;     else     if(b<=c)     k=1;",
-      "D: if(a>b)     k=1;     else     if(b>c)     k=1;     else     k=0;"
+      "A: if((a>b)&&(b>c))k=1;      else      k=0;",
+      "B: if((a>b)||(b>c))k=1;      else      k=0;",
+      "C: if(a<=b)      k=0;      else      if(b<=c)      k=1;",
+      "D: if(a>b)      k=1;      else      if(b>c)      k=1;      else      k=0;"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C4选择结构程序设计/【"
@@ -7180,10 +7180,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{  char  a[]=\"abcdefg\",b[10]=\"abcdefg\";\nprintf(\"%d %d\\n\",sizeof(a),sizeof(b));\n}\n执行后输出结果是______。",
     "options": [
-      "A: 7     7",
-      "B: 8     8",
-      "C: 8     10",
-      "D: 10     10"
+      "A: 7      7",
+      "B: 8      8",
+      "C: 8      10",
+      "D: 10      10"
     ],
     "answer": "C",
     "explanation": "没有定义"
@@ -7245,10 +7245,10 @@
     "type": "single",
     "question": "以下程序段中，不能正确赋字符串（编译时系统会提示错误）的是______。",
     "options": [
-      "A: char     s[10]=\"abcdefg\";",
-      "B: char     t[]=\"abcdefg\";",
-      "C: char     s[10];s=\"abcdefg\";",
-      "D: char     s[10];strcpy(s,\"abcdefg\");"
+      "A: char      s[10]=\"abcdefg\";",
+      "B: char      t[]=\"abcdefg\";",
+      "C: char      s[10];s=\"abcdefg\";",
+      "D: char      s[10];strcpy(s,\"abcdefg\");"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/字符数组初始化T"
@@ -7284,10 +7284,10 @@
     "type": "single",
     "question": "有以下程序\nstruct STU\n{ char   name[10];\nint    num;\nint    Score;\n};\nmain()\n{ struct STU   s[5]={{\"YangSan\",20041,703},{\"LiSiGuo\",20042,580},\n{\"WangYin\",20043,680},{\"SunDan\",20044,550},\n{\"Penghua\",20045,537}}, *p[5],*t;\nint i,j;\nfor(i=0;i<5;i++) p[i]=&s[i];\nfor(i=0;i<4;i++)\nfor(j=i+1;j<5;j++)\nif(p[i]->Score>p[j]->Score)\n{t=p[i];p[i]=p[j];p[j]=t;}\nprintf(\"%d %d\\n\",s[1].Score,p[1]->Score);\n}\n执行后输出结果是______。",
     "options": [
-      "A: 550     550",
-      "B: 680     680",
-      "C: 580     550",
-      "D: 580     680"
+      "A: 550      550",
+      "B: 680      680",
+      "C: 580      550",
+      "D: 580      680"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C9结构体与共用体/指针数组与结构体数组T"
@@ -7310,10 +7310,10 @@
     "type": "single",
     "question": "有以下程序：\n#include   <stdio.h>\nmain()\n{  FILE *fp;\nint i,k=0,n=0;\nfp=fopen(\"d1.dat\",\"w\");\nfor(i=1;i<4;i++) fprintf(fp,\"%d\",i);\nfclose(fp);\nfp=fopen(\"d1.dat\",\"r\");\nfscanf(fp,\"%d%d\",&k,&n);printf(\"%d %d\\n\",k,n);\nfclose(fp);\n}\n执行后输出结果是______。",
     "options": [
-      "A: 1     2",
-      "B: 123     0",
-      "C: 1     23",
-      "D: 0     0"
+      "A: 1      2",
+      "B: 123      0",
+      "C: 1      23",
+      "D: 0      0"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C11文件/格式化读写函数T"
@@ -7388,10 +7388,10 @@
     "type": "single",
     "question": "以下能正确定义二维数组的是______。",
     "options": [
-      "A: int     a[][3]={1,2,3,4,5,6};",
-      "B: int     a[][3]={2*3};",
-      "C: int     a[][3]={};",
-      "D: int     a[2][3]={{1},{2},{3,4}};     答案：A     评析：     空     知识点：知识点/选择题/C7数组/二维数组定义初始化及引用T     588、有以下程序     int     f(int     a)     {     return     a%2;     }     main()     {     int     s[8]={1,3,5,2,4,6},i,d=0;     for     (i=0;f(s[i]);i++)     d+=s[i];     printf(\"%d\\n\",d);     }     程序运行后的输出结果是______。     A：9     B：11     C：19     D：21"
+      "A: int      a[][3]={1,2,3,4,5,6};",
+      "B: int      a[][3]={2*3};",
+      "C: int      a[][3]={};",
+      "D: int      a[2][3]={{1},{2},{3,4}};      答案：A      评析：      空      知识点：知识点/选择题/C7数组/二维数组定义初始化及引用T      588、有以下程序      int      f(int      a)      {      return      a%2;      }      main()      {      int      s[8]={1,3,5,2,4,6},i,d=0;      for      (i=0;f(s[i]);i++)      d+=s[i];      printf(\"%d\\n\",d);      }      程序运行后的输出结果是______。      A：9      B：11      C：19      D：21"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C7数组/数组元素做函数参数T"
@@ -7414,10 +7414,10 @@
     "type": "single",
     "question": "s1和s2已正确定义并分别指向两个字符串。若要求：当s1所指串大于s2所指串时，执行语句S;，则以下选项中正确的是______。",
     "options": [
-      "A: if(s1>s2)     S;",
-      "B: if(strcmp(s1,s2))     S;",
-      "C: if(strcmp(s2,s1)>0)     S;",
-      "D: if(strcmp(s1,s2)>0)     S;"
+      "A: if(s1>s2)      S;",
+      "B: if(strcmp(s1,s2))      S;",
+      "C: if(strcmp(s2,s1)>0)      S;",
+      "D: if(strcmp(s1,s2)>0)      S;"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/字符串处理函数T"
@@ -7453,10 +7453,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{ char s[]=\"Yes\\n/No\",*ps=s;\nputs(ps+4);\n*(ps+4)=0;\nputs(s);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: n/No     Yes     /No",
-      "B: /No     Yes",
-      "C: /NO     Yes     /No",
-      "D: /No     Yes"
+      "A: n/No      Yes      /No",
+      "B: /No      Yes",
+      "C: /NO      Yes      /No",
+      "D: /No      Yes"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C8指针/指针与字符数组T"
@@ -7466,10 +7466,10 @@
     "type": "single",
     "question": "有以下程序\nvoid fun(int *a,int i,int j)\n{ int t;\nif(i<j)\n{ t=a[i];a[i]=a[j];a[j]=t;\ni++; j--;\nfun(a,i,j);\n}\n}\nmain()\n{ int x[]={2,6,1,8},i;\nfun(x,0,3);\nfor(i=0;i<4;i++) printf(\"%2d\",x[i]);\nprintf(\"\\n\");\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 1     2     6     8",
-      "B: 8     6     2     1",
-      "C: 8     1     6     2",
-      "D: 8     6     1     2"
+      "A: 1      2      6      8",
+      "B: 8      6      2      1",
+      "C: 8      1      6      2",
+      "D: 8      6      1      2"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/【"
@@ -7518,10 +7518,10 @@
     "type": "single",
     "question": "以下能正确定义字符串的语句是______。",
     "options": [
-      "A: char     str[]={'\\064'};",
-      "B: char     str=\"\\x43\";",
-      "C: char     str='';",
-      "D: char     str[]=\"\\0\";"
+      "A: char      str[]={'\\064'};",
+      "B: char      str=\"\\x43\";",
+      "C: char      str='';",
+      "D: char      str[]=\"\\0\";"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C7数组/字符数组初始化T"
@@ -7544,10 +7544,10 @@
     "type": "single",
     "question": "以下四个程序中，完全正确的是______。",
     "options": [
-      "A: #include     <stdio.h>     main();     {     /*programming*/     printf(\"programming!\\n\");     }",
-      "B: #include<stdio.h>     main()     {     /*/programming/*//     printf(\"programming!\\n\");     }",
-      "C: #include     <stdio.h>     main()     {     /*programming*/     printf(\"programming!\\n\");     }",
-      "D: include<stdio.h>     main()     {     /*/*programming*/*/     printf(\"programming!\\n\");     }     答案：C     评析：     空     知识点：知识点/选择题/C1C语言概述/程序设计概述     601、若各选项中所有变量已正确定义，函数fun中通过return语句返回一个函数值，以下选项中错误的程序是______。     A：main()     {……     x=fun(2,10);     ……}     float     fun(int     a,int     b){     ……}     B：float     fun(int     a,int     b){……}     main()     {……     x=fun(i,j);     ……}     C：float     fun(int     int);     main()     {……     x=fun(2,10);     ……}     float     fun(int     a,int     b){     ……}     D：main()     {     float     fun(int     i,     int     j);     ……     x=fun(i,j);     ……}     float     fun(int     a,int     b){     ……}"
+      "A: #include      <stdio.h>      main();      {      /*programming*/      printf(\"programming!\\n\");      }",
+      "B: #include<stdio.h>      main()      {      /*/programming/*//      printf(\"programming!\\n\");      }",
+      "C: #include      <stdio.h>      main()      {      /*programming*/      printf(\"programming!\\n\");      }",
+      "D: include<stdio.h>      main()      {      /*/*programming*/*/      printf(\"programming!\\n\");      }      答案：C      评析：      空      知识点：知识点/选择题/C1C语言概述/程序设计概述      601、若各选项中所有变量已正确定义，函数fun中通过return语句返回一个函数值，以下选项中错误的程序是______。      A：main()      {……      x=fun(2,10);      ……}      float      fun(int      a,int      b){      ……}      B：float      fun(int      a,int      b){……}      main()      {……      x=fun(i,j);      ……}      C：float      fun(int      int);      main()      {……      x=fun(2,10);      ……}      float      fun(int      a,int      b){      ……}      D：main()      {      float      fun(int      i,      int      j);      ……      x=fun(i,j);      ……}      float      fun(int      a,int      b){      ……}"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C6函数与编译预处理/函数的基本概念"
@@ -7570,10 +7570,10 @@
     "type": "single",
     "question": "若有说明语句：double *p,a;则能通过scanf语句正确给输入项读入数据的程序段是______。",
     "options": [
-      "A: *p=&a;     scanf(\"%lf\",p);",
-      "B: *p=&a;     scanf(\"%f\",p);",
-      "C: p=&a;     scanf(\"%lf\",*p);",
-      "D: p=&a;     scanf(\"%lf\",p);"
+      "A: *p=&a;      scanf(\"%lf\",p);",
+      "B: *p=&a;      scanf(\"%f\",p);",
+      "C: p=&a;      scanf(\"%lf\",*p);",
+      "D: p=&a;      scanf(\"%lf\",p);"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针变量与输入函数T"
@@ -7635,10 +7635,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{ int i,t[][3]={9,8,7,6,5,4,3,2,1};\nfor(i=0;i<3;i++) printf(\"%d \",t[2-i][i]);\n}\n程序执行后的输出结果是______。",
     "options": [
-      "A: 7     5     3",
-      "B: 3     5     7",
-      "C: 3     6     9",
-      "D: 7     5     1"
+      "A: 7      5      3",
+      "B: 3      5      7",
+      "C: 3      6      9",
+      "D: 7      5      1"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C7数组/二维数组定义初始化及引用T"
@@ -7778,10 +7778,10 @@
     "type": "single",
     "question": "下列定义变量的语句中错误的是______。",
     "options": [
-      "A: int     _int;",
-      "B: double     int_;",
-      "C: char     For;",
-      "D: float     US$;"
+      "A: int      _int;",
+      "B: double      int_;",
+      "C: char      For;",
+      "D: float      US$;"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/标识符T"
@@ -7858,8 +7858,8 @@
     "options": [
       "A: 编译出错",
       "B: 运行出错",
-      "C: 运行结果为     y=0",
-      "D: 运行结果为     y=6"
+      "C: 运行结果为      y=0",
+      "D: 运行结果为      y=6"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C6函数与编译预处理/自定义头文件T"
@@ -7908,10 +7908,10 @@
     "type": "single",
     "question": "有以下程序段\ntypedef struct node{int data; struct node  *next; } *NODE;\nNODE  p;   \n以下叙述中正确的是______。",
     "options": [
-      "A: p是指向struct     node结构变量的指针的指针",
-      "B: NODE     p;语句出错",
-      "C: p是指向struct     node结构变量的指针",
-      "D: p是struct     node结构变量"
+      "A: p是指向struct      node结构变量的指针的指针",
+      "B: NODE      p;语句出错",
+      "C: p是指向struct      node结构变量的指针",
+      "D: p是struct      node结构变量"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C9结构体与共用体/typedef的应用T"
@@ -7934,10 +7934,10 @@
     "type": "single",
     "question": "有以下程序______。\n#include <stdio.h>\nmain()\n{  FILE *fp; int k,n,a[6]={1,2,3,4,5,6};\nfp=fopen(\"d2.dat\",\"w\");\nfprintf(fp,\"%d%d%d\\n\",a[0],a[1],a[2]);  \nfprintf(fp,\"%d%d%d\\n\",a[3],a[4],a[5]);\nfclose(fp);\nfp=fopen(\"d2.dat\",\"r\");\nfscanf(fp,\"%d%d\",&k,&n);  printf(\"%d%d\\n\",k,n);\nclose(fp);\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 1     2",
-      "B: 1     4",
-      "C: 123     4",
-      "D: 123     456"
+      "A: 1      2",
+      "B: 1      4",
+      "C: 123      4",
+      "D: 123      456"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C11文件/格式化读写函数T"
@@ -7950,7 +7950,7 @@
       "A: 4,5,6,4,5,6,",
       "B: 1,2,3,4,5,6,",
       "C: 4,5,6,1,2,3,",
-      "D: 6,5,4,3,2,1,     答案：A     评析：     空     知识点：知识点/选择题/C11文件/【     633、有以下程序     main()     {     int     k=5;     while(--k)     printf(\"%d\",k-=3);     printf(\"\\n\");     }     执行后的输出结果是______。     A：1     B：2     C：4     D：死循环"
+      "D: 6,5,4,3,2,1,      答案：A      评析：      空      知识点：知识点/选择题/C11文件/【      633、有以下程序      main()      {      int      k=5;      while(--k)      printf(\"%d\",k-=3);      printf(\"\\n\");      }      执行后的输出结果是______。      A：1      B：2      C：4      D：死循环"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C5循环结构程序设计/WHILE循环结构T"
@@ -8028,7 +8028,7 @@
       "A: p向高地址移了一个字节",
       "B: p向高地址移了一个存储单元",
       "C: p向高地址移了四个字节",
-      "D: p与a+1等价     答案：A     评析：     空     知识点：知识点/选择题/C8指针/指针处理一维数组T     640、有以下程序     main()     {     int     a=1,b=3,c=5;     int     *p1=&a,*p2=&b,*p=&c;     *p=*p1*(*p2);     printf(\"%d\\n\",c);     }     执行后的输出结果是______。     A：1     B：2     C：3     D：4"
+      "D: p与a+1等价      答案：A      评析：      空      知识点：知识点/选择题/C8指针/指针处理一维数组T      640、有以下程序      main()      {      int      a=1,b=3,c=5;      int      *p1=&a,*p2=&b,*p=&c;      *p=*p1*(*p2);      printf(\"%d\\n\",c);      }      执行后的输出结果是______。      A：1      B：2      C：3      D：4"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C8指针/指针与变量T"
@@ -8051,10 +8051,10 @@
     "type": "single",
     "question": "若有以下函数首部\nint  fun(double  x[10], int  *n)\n则下面针对此函数的函数声明语句中正确的是______。",
     "options": [
-      "A: int     fun(double     x,     int     *n);",
-      "B: int     fun(double,     int     );",
-      "C: int     fun(double     *x,     int     n);",
-      "D: int     fun(double     *,     int     *);"
+      "A: int      fun(double      x,      int      *n);",
+      "B: int      fun(double,      int      );",
+      "C: int      fun(double      *x,      int      n);",
+      "D: int      fun(double      *,      int      *);"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针与函数基本概念"
@@ -8064,10 +8064,10 @@
     "type": "single",
     "question": "有以下程序\nvoid change(int k[])\n{ k[0]=k[5]; }\nmain()\n{  int  x[10]={1,2,3,4,5,6,7,8,9,10}, n=0;\nwhile(n<=4)  \n{ change(&x[n]); n++;}\nfor(n=0;n<5;n++)  printf(\"%d \",x[n]); \nprintf(\"\\n\");\n}\n程序运行后输出的结果是______。",
     "options": [
-      "A: 6     7     8     9     10",
-      "B: 1     3     5     7     9",
-      "C: 1     2     3     4     5",
-      "D: 6     2     3     4     5"
+      "A: 6      7      8      9      10",
+      "B: 1      3      5      7      9",
+      "C: 1      2      3      4      5",
+      "D: 6      2      3      4      5"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C7数组/数组名做函数参数T"
@@ -8090,10 +8090,10 @@
     "type": "single",
     "question": "在以下语句中存在语法错误的是______。",
     "options": [
-      "A: char     ss[6][20];     ss[1]=\"right?\";",
-      "B: char     ss[][20]={\"right?\"};",
-      "C: char     *ss[6];     ss[1]=\"right?\";",
-      "D: char     *ss[]={\"right?\"};"
+      "A: char      ss[6][20];      ss[1]=\"right?\";",
+      "B: char      ss[][20]={\"right?\"};",
+      "C: char      *ss[6];      ss[1]=\"right?\";",
+      "D: char      *ss[]={\"right?\"};"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C8指针/指针数组与字符串T"
@@ -8103,10 +8103,10 @@
     "type": "single",
     "question": "若有定义：char  *x=\"abcdefghi\";，以下选项中正确运用了strcpy函数的是______。",
     "options": [
-      "A: char     y[10];     strcpy(y,x[4]);",
-      "B: char     y[10];     strcpy(++y,&x[1]);",
-      "C: char     y[10],*s;     strcpy(s=y+5,x);",
-      "D: char     y[10],*s;     strcpy(s=y+1,     x+1);"
+      "A: char      y[10];      strcpy(y,x[4]);",
+      "B: char      y[10];      strcpy(++y,&x[1]);",
+      "C: char      y[10],*s;      strcpy(s=y+5,x);",
+      "D: char      y[10],*s;      strcpy(s=y+1,      x+1);"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C8指针/指针与字符串处理函数T"
@@ -8142,10 +8142,10 @@
     "type": "single",
     "question": "有以下程序\nvoid  fun2 (char a, char b)  \n{printf (\"%c %c\", a,b);}\n\nchar  a='A',b='B';\n\nvoid  fun1(){  a='C' ;  b='D';  } \nmain()\n{     fun1();\nprintf(\"%c %c \",a,b);\nfun2 ('E', 'F');\n}\n程序的运行结果是______。",
     "options": [
-      "A: C     D     E     F",
-      "B: A     B     E     F",
-      "C: A     B     C     D",
-      "D: C     D     A     B"
+      "A: C      D      E      F",
+      "B: A      B      E      F",
+      "C: A      B      C      D",
+      "D: C      D      A      B"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C6函数与编译预处理/全局变量与局部变量T"
@@ -8155,10 +8155,10 @@
     "type": "single",
     "question": "有以下程序\n#include   <stdio.h>\n#define   N      5\n#define   M      N+1\n#define   f(x)  (x*M)\nmain()\n{ int  i1,i2;\ni1=f(2);\ni2=f(1+1);\nprintf (\"%d  %d\\n\",i1,i2);\n}\n程序的运行结果是______。",
     "options": [
-      "A: 12     12",
-      "B: 11     7",
-      "C: 11     11",
-      "D: 12     7"
+      "A: 12      12",
+      "B: 11      7",
+      "C: 11      11",
+      "D: 12      7"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C6函数与编译预处理/带参数的宏定义T"
@@ -8171,7 +8171,7 @@
       "A: 可以用TT定义结构体变量",
       "B: TT是struct类型的变量",
       "C: 可以用CIN定义结构体变量",
-      "D: CIN是struct     TT类型的变量"
+      "D: CIN是struct      TT类型的变量"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C9结构体与共用体/typedef的应用T"
@@ -8197,7 +8197,7 @@
       "A: x=10.5;",
       "B: x.c=101;",
       "C: y=x;",
-      "D: printf(\"%d\\n\",     x);"
+      "D: printf(\"%d\\n\",      x);"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C9结构体与共用体/共用体T"
@@ -8262,7 +8262,7 @@
       "A: 程序的执行总是从main函数开始，在main函数结束",
       "B: 程序的执行总是从程序的第一个函数开始，在main函数结束",
       "C: 程序的执行总是从main函数开始，在程序的最后一个函数中结束",
-      "D: 程序的执行总是从程序中的第一个函数开始，在程序的最后一个函数中结束     答案：A     评析：     空     知识点：知识点/选择题/C1C语言概述/程序设计概述     659、若有代数式     （其中e仅代表自然对数的底数，不是变量），则以下能够正确表示该代数式的C语言表达式是______。     A：sqrt(abs(n^x+e^x))     B：sqrt(fabs(pow(n,x)+pow(x,e)))     C：sqrt(fabs(pow(n,x)+exp(x)))     D：sqrt(fabs(pow(x,n)+exp(x)))     答案：C     评析：     空     知识点：知识点/选择题/C2基本数据类型及表达式/【     660、设变量x和y均已正确定义并赋值。以下if语句中，在编译时将产生错误信息的是______。     A：if(x++);     B：if(x>y     &&     y!=0);     C：if(x>0)     x--     else     y++;     D：if(y<0)     {;}     else     x++;"
+      "D: 程序的执行总是从程序中的第一个函数开始，在程序的最后一个函数中结束      答案：A      评析：      空      知识点：知识点/选择题/C1C语言概述/程序设计概述      659、若有代数式      （其中e仅代表自然对数的底数，不是变量），则以下能够正确表示该代数式的C语言表达式是______。      A：sqrt(abs(n^x+e^x))      B：sqrt(fabs(pow(n,x)+pow(x,e)))      C：sqrt(fabs(pow(n,x)+exp(x)))      D：sqrt(fabs(pow(x,n)+exp(x)))      答案：C      评析：      空      知识点：知识点/选择题/C2基本数据类型及表达式/【      660、设变量x和y均已正确定义并赋值。以下if语句中，在编译时将产生错误信息的是______。      A：if(x++);      B：if(x>y      &&      y!=0);      C：if(x>0)      x--      else      y++;      D：if(y<0)      {;}      else      x++;"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C4选择结构程序设计/IF语句T"
@@ -8298,10 +8298,10 @@
     "type": "single",
     "question": "有以下程序\nmain()\n{ int  i,  j;\nfor(i=1;i<4;i++)\n{ for(j=i;j<4;j++)  \nprintf(\"%d*%d=%d  \",i,j,i*j);\nprintf(\"\\n\");\n}\n}\n程序运行后的输出结果是______。",
     "options": [
-      "A: 1*1=1     1*2=2     1*3=3     2*1=2     2*2=4     3*1=3",
-      "B: 1*1=1     1*2=2     1*3=3     2*2=4     2*3=6     3*3=9",
-      "C: 1*1=1     1*2=2     2*2=4     1*3=3     2*3=6     3*3=9",
-      "D: 1*1=1     2*1=2     2*2=4     3*1=3     3*2=6     3*3=9     答案：B     评析：     空     知识点：知识点/选择题/C5循环结构程序设计/循环嵌套T     664、以下合法的字符型常量是______。     A：'\\x13'     B：'\\081'     C：'65'     D：\"\\n\""
+      "A: 1*1=1      1*2=2      1*3=3      2*1=2      2*2=4      3*1=3",
+      "B: 1*1=1      1*2=2      1*3=3      2*2=4      2*3=6      3*3=9",
+      "C: 1*1=1      1*2=2      2*2=4      1*3=3      2*3=6      3*3=9",
+      "D: 1*1=1      2*1=2      2*2=4      3*1=3      3*2=6      3*3=9      答案：B      评析：      空      知识点：知识点/选择题/C5循环结构程序设计/循环嵌套T      664、以下合法的字符型常量是______。      A：'\\x13'      B：'\\081'      C：'65'      D：\"\\n\""
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C2基本数据类型及表达式/转义字符T"
@@ -8311,7 +8311,7 @@
     "type": "single",
     "question": "有以下程序\n#include  <stdio.h>\nmain()\n{ int  n, *p=NULL;\n*p=&n;\nprintf(\"Input n:\");   \nscanf(\"%d\",&p);   \nprintf(\"output n:\");  \nprintf(\"%d\\n\",p);\n}\n该程序试图通过指针p为变量n读入数据并输出，但程序有多处错误，以下语句正确的是______。",
     "options": [
-      "A: int     n     ,     *p=NULL;",
+      "A: int      n      ,      *p=NULL;",
       "B: *p=&n;",
       "C: scanf(\"%d\",&p)",
       "D: printf(\"%d\\n\",p);"
@@ -8467,10 +8467,10 @@
     "type": "single",
     "question": "以下定义语句中正确的是______。",
     "options": [
-      "A: int     a=b=0;",
-      "B: char     A=65+1,b='b';",
-      "C: float     a=1,*b=&a,*c=&b;",
-      "D: double     a=0.0;b=1.1;"
+      "A: int      a=b=0;",
+      "B: char      A=65+1,b='b';",
+      "C: float      a=1,*b=&a,*c=&b;",
+      "D: double      a=0.0;b=1.1;"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C8指针/指针变量定义与初始化T"
@@ -8496,7 +8496,7 @@
       "A: kk>='A'&&kk<='Z'",
       "B: !(kk>='A'||KK<='Z')",
       "C: (kk+32)>='a'&&(kk+32)<='z'",
-      "D: kk>=65     &&     kk<=90"
+      "D: kk>=65      &&      kk<=90"
     ],
     "answer": "B",
     "explanation": "知识点/选择题/C4选择结构程序设计/表达式运算T"
@@ -8545,10 +8545,10 @@
     "type": "single",
     "question": "以下不构成无限循环的语句或语句组是______。",
     "options": [
-      "A: n=0;     do     {++n;}while(n<=0);",
-      "B: n=0;     while(1){n++;}",
-      "C: n=10;     while(n);     {n--;}",
-      "D: for(n=0,i=1;     ;i++)     n+=i;"
+      "A: n=0;      do      {++n;}while(n<=0);",
+      "B: n=0;      while(1){n++;}",
+      "C: n=10;      while(n);      {n--;}",
+      "D: for(n=0,i=1;      ;i++)      n+=i;"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C5循环结构程序设计/循环条件判定T"
@@ -8571,10 +8571,10 @@
     "type": "single",
     "question": "以下错误的定义语句是______。",
     "options": [
-      "A: int     x[][3]={{0},{1},{1,2,3}};",
-      "B: int     x[4][3]={{1,2,3},{1,2,3},{1,2,3}{1,2,3}};",
-      "C: int     x[4][]=     {{1,2,3},{1,2,3},{1,2,3}{1,2,3}};",
-      "D: int     x[][3]={1,2,3,4};"
+      "A: int      x[][3]={{0},{1},{1,2,3}};",
+      "B: int      x[4][3]={{1,2,3},{1,2,3},{1,2,3}{1,2,3}};",
+      "C: int      x[4][]=      {{1,2,3},{1,2,3},{1,2,3}{1,2,3}};",
+      "D: int      x[][3]={1,2,3,4};"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/二维数组定义初始化及引用T"
@@ -8623,10 +8623,10 @@
     "type": "single",
     "question": "以下结构体类型说明和变量定义中正确的是______。",
     "options": [
-      "A: typedef     struct     {int     n;     char     c;}     REC;     REC     t1,t2;",
-      "B: struct     REC;     {int     n;     char     c;};     REC     t1,t2;",
-      "C: typedef     struct     REC;     {int     n=0;     char     c=     'A';}t1,t2;",
-      "D: struct     {int     n;     char     c;}     REC;     REC     t1,t2;"
+      "A: typedef      struct      {int      n;      char      c;}      REC;      REC      t1,t2;",
+      "B: struct      REC;      {int      n;      char      c;};      REC      t1,t2;",
+      "C: typedef      struct      REC;      {int      n=0;      char      c=      'A';}t1,t2;",
+      "D: struct      {int      n;      char      c;}      REC;      REC      t1,t2;"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C9结构体与共用体/结构体类型及变量定义T"
@@ -8636,10 +8636,10 @@
     "type": "single",
     "question": "有以下程序\n#include <stdio.h>\nmain()\n{   int  s[12]={1,2,3,4,4,3,2,1,1,1,2,3},c[5]={0},i;\nfor(i=0;i<12;i++)  \nc[s[i]]++;\nfor(i=1;i<5;i++)   \nprintf(\"%d\",c[i]);\nprintf(\"\\n\");\n}\n程序的运行结果是______。",
     "options": [
-      "A: 1     2     3     4",
-      "B: 2     3     4     4",
-      "C: 4     3     3     2",
-      "D: 1     1     2     3"
+      "A: 1      2      3      4",
+      "B: 2      3      4      4",
+      "C: 4      3      3      2",
+      "D: 1      1      2      3"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C7数组/一维数组应用T"
@@ -8779,9 +8779,9 @@
     "type": "single",
     "question": "以下选项中正确的定义语句是______。",
     "options": [
-      "A: double     a;b;",
-      "B: double     a=b=7;",
-      "C: double     a=7,b=7;",
+      "A: double      a;b;",
+      "B: double      a=b=7;",
+      "C: double      a=7,b=7;",
       "D: double,a,b;"
     ],
     "answer": "C",
@@ -8795,7 +8795,7 @@
       "A: 2*a*b/c/d",
       "B: a*b/c/d*2",
       "C: a/c/d*b*2",
-      "D: 2*a*b/c*d     答案：D     评析：     空     知识点：知识点/选择题/C2基本数据类型及表达式/【     703、C源程序中不能表示的数制是______。     A：二进制     B：八进制     C：十进制     D：十六进制"
+      "D: 2*a*b/c*d      答案：D      评析：      空      知识点：知识点/选择题/C2基本数据类型及表达式/【      703、C源程序中不能表示的数制是______。      A：二进制      B：八进制      C：十进制      D：十六进制"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C1C语言概述/程序设计概述"
@@ -8832,8 +8832,8 @@
     "question": "若变量已正确定义为int型，要通过语句scanf(\"%d,%d,%d\",&a,&b,&c); 给a赋值1、给b赋值2、给c赋值3，以下输入形式中错误的是______。（ 代表一个空格符）",
     "options": [
       "A: 1,2,3<回车>",
-      "B: 1     2     3<回车>",
-      "C: 1,     2,     3<回车>",
+      "B: 1      2      3<回车>",
+      "C: 1,      2,      3<回车>",
       "D: 1,2,3<回车>"
     ],
     "answer": "B",
@@ -8844,10 +8844,10 @@
     "type": "single",
     "question": "有以下程序段\nint a,b,c;\na=10; b=50; c=30;\nif(a>b) a=b, b=c; c=a;\nprintf (\"a=%d b=%d c=%d\\n\",a,b,c);\n程序的输出结果是______。",
     "options": [
-      "A: a=10     b=50     c=10",
-      "B: a=10     b=50     c=30",
-      "C: a=10     b=30     c=10",
-      "D: a=50     b=30     c=50"
+      "A: a=10      b=50      c=10",
+      "B: a=10      b=50      c=30",
+      "C: a=10      b=30      c=10",
+      "D: a=50      b=30      c=50"
     ],
     "answer": "A",
     "explanation": "知识点/选择题/C4选择结构程序设计/IF语句T"
@@ -8922,10 +8922,10 @@
     "type": "single",
     "question": "有以下程序\n#include <stdio.h>\nmain()\n{   int i,j;\nfor(i=3;i>=1;i--)\n{   for(j=1;j<=2;j++) \nprintf(\"%d\",i+j);\nprintf(\"\\n\");\n}\n}\n程序的运行结果是______。",
     "options": [
-      "A: 2     3     4     3     4     5",
-      "B: 4     3     2     5     4     3",
-      "C: 2     3     3     4     4     5",
-      "D: 4     5     3     4     2     3"
+      "A: 2      3      4      3      4      5",
+      "B: 4      3      2      5      4      3",
+      "C: 2      3      3      4      4      5",
+      "D: 4      5      3      4      2      3"
     ],
     "answer": "D",
     "explanation": "知识点/选择题/C5循环结构程序设计/循环嵌套T"
@@ -9065,10 +9065,10 @@
     "type": "single",
     "question": "假定已建立以下链表结构，且指针p和q已指向如图所示的结点：\n\n则以下选项中可将q所指结点从链表中删除并释放该结点的语句组是______。",
     "options": [
-      "A: (*p).next=(*q).next;     free(p);",
-      "B: p=q->next;     free(q);",
-      "C: p=q;     free(q);",
-      "D: p->next=q->next;     free(q);     答案：D     评析：     空     知识点：知识点/选择题/C9结构体与共用体/链表T     725、有以下程序     #include     <stdio.h>     main()     {     char     a=4;     printf(\"%d\\n\",a=a<<1);     }     程序的运行结果是______。     A：40     B：16     C：8     D：4"
+      "A: (*p).next=(*q).next;      free(p);",
+      "B: p=q->next;      free(q);",
+      "C: p=q;      free(q);",
+      "D: p->next=q->next;      free(q);      答案：D      评析：      空      知识点：知识点/选择题/C9结构体与共用体/链表T      725、有以下程序      #include      <stdio.h>      main()      {      char      a=4;      printf(\"%d\\n\",a=a<<1);      }      程序的运行结果是______。      A：40      B：16      C：8      D：4"
     ],
     "answer": "C",
     "explanation": "知识点/选择题/C10位运算/位运算T"
